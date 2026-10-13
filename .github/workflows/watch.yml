@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/5 * * * *"   # 5 dakikada bir (GitHub bazen geciktirir)
   workflow_dispatch:         # elle "Run workflow" ile test icin
+  push:
+    branches: [main]
+    paths-ignore: [seen.json]
 
 permissions:
   contents: write
@@ -22,7 +25,6 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: pip
 
       - run: pip install -r requirements.txt
 
