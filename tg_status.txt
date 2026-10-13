@@ -1,1 +1,1 @@
-TELEGRAM HATASI 404: {"ok":false,"error_code":404,"description":"Not Found"} | chat_len=10 token_len=47
+OK - mesaj gitti
