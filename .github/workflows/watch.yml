@@ -1,24 +1,28 @@
 name: Toyzz Hot Wheels Watch
 
+# GitHub'in kendi zamanlayicisi guvenilmez oldugu icin:
+# tek bir calisma ~5.5 saat boyunca DAKIKADA BIR tarar, bitince kendini yeniden baslatir.
+# Zincir koparsa asagidaki cron yedek olarak tekrar baslatir.
 on:
   schedule:
-    - cron: "*/5 * * * *"   # 5 dakikada bir (GitHub bazen geciktirir)
-  workflow_dispatch:         # elle "Run workflow" ile test icin
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
   push:
     branches: [main]
     paths: [toyzz_watch.py, .github/workflows/watch.yml]
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: toyzz-watch
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v5
 
@@ -28,17 +32,30 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Tara
+      - name: Dakikada bir tara
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
-          TG_TEST: ${{ github.event_name != 'schedule' && '1' || '' }}
-        run: python toyzz_watch.py
-
-      - name: Durumu kaydet
-        if: always()
+          FIRST_TEST: ${{ github.event_name != 'schedule' && '1' || '' }}
         run: |
           git config user.name "toyzz-bot"
           git config user.email "toyzz-bot@users.noreply.github.com"
-          for f in seen.json catalog.txt tg_status.txt; do [ -f "$f" ] && git add "$f"; done; true
-          git diff --cached --quiet || (git commit -m "durum guncellendi" && git pull --rebase -q && git push)
+          end=$((SECONDS + 20400))   # ~5 saat 40 dk
+          first=1
+          while [ $SECONDS -lt $end ]; do
+            if [ "$first" = 1 ] && [ -n "$FIRST_TEST" ]; then export TG_TEST=1; else unset TG_TEST; fi
+            first=0
+            python toyzz_watch.py || echo "tarama hatasi, devam"
+            for f in seen.json catalog.txt tg_status.txt; do [ -f "$f" ] && git add "$f"; done
+            if ! git diff --cached --quiet; then
+              git commit -q -m "durum guncellendi"
+              git pull -q --rebase && git push -q || echo "push hatasi, devam"
+            fi
+            sleep 60
+          done
+
+      - name: Kendini yeniden baslat
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run watch.yml --ref main
