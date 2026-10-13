@@ -4,24 +4,27 @@ B="https://www.toyzzshop.com"; A="https://core.toyzzshop.com/api/"
 out=[]
 html=requests.get(B+"/karakter/hot-wheels/38",headers=H,timeout=30).text
 js=requests.get(B+re.findall(r'(/assets/index-[\w\-]+\.js)',html)[0],headers=H,timeout=30).text
-i=js.find('const kt="https://core.toyzzshop.com/api"')
-out.append("HEADERS CODE: "+js[max(0,i-1500):i])
-for kw in ['"users/init"','_guestToken']:
+for kw in ['getCharacterProducts(','serial=','order_by','orderBy','sort_by','"sort"','per_page','perPage','limit:']:
     for k,mm in enumerate(re.finditer(re.escape(kw),js)):
-        if k>=4: break
-        out.append(f"[{kw}] "+js[max(0,mm.start()-250):mm.end()+350])
-def show(name,r):
-    out.append(f"--- {name}: {r.status_code} {r.headers.get('content-type')}\n{r.text[:2500]}")
-r=requests.get(A+"users/init",headers=H,timeout=30); show("users/init",r)
-tok=None
-try:
-    d=r.json(); s=json.dumps(d)
-    m=re.search(r'"(?:token|accessToken|guestToken|access_token)"\s*:\s*"([^"]+)"',s); tok=m.group(1) if m else None
-except Exception: pass
-out.append(f"TOKEN={tok[:20] if tok else None}")
-show("characters/38/products noauth",requests.get(A+"characters/38/products",headers=H,timeout=30))
-if tok:
-    for hn,hv in [("Authorization","Bearer "+tok),("Authorization",tok),("guest-token",tok)]:
-        h=dict(H); h[hn]=hv
-        show(f"characters/38/products {hn}={hv[:12]}",requests.get(A+"characters/38/products",headers=h,timeout=30))
+        if k>=2: break
+        out.append(f"[{kw}] "+js[max(0,mm.start()-300):mm.end()+300])
+def summ(name,params):
+    r=requests.get(A+"characters/38/products",headers=H,params=params,timeout=30)
+    try:
+        d=r.json()["payload"]
+        prods=d.get("products",[])
+        other={k:v for k,v in d.items() if k!="products"}
+        out.append(f"--- {name} {params}: {r.status_code} n={len(prods)} other_keys={list(other)}\n"+json.dumps(other,ensure_ascii=False)[:1500])
+        for p in prods[:6]: out.append(f"   {p['created_at'][:10]} q={p['quantity']} {p['price']['original']} {p['title'][:60]} | {p['slug']} sid={p['serial_id']}")
+        return prods
+    except Exception as e:
+        out.append(f"--- {name}: {r.status_code} ERR {e} {r.text[:300]}")
+all1=summ("default",{})
+summ("page2",{"page":2})
+for s in ["new","newest","en-yeniler","created_at","-created_at","price_asc","price"]:
+    summ("sort",{"sort":s})
+summ("q premium",{"q":"premium"})
+summ("search api",{})
+r=requests.get(A+"search/products",headers=H,params={"q":"hot wheels premium"},timeout=30)
+out.append(f"--- search/products: {r.status_code} {r.text[:1500]}")
 open("probe.txt","w").write("\n\n".join(out)+"\n")
