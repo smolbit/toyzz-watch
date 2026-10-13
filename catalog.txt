@@ -62,7 +62,6 @@
 2025-10-07 13:38  ✔    6499.00    Hot Wheels Premium Serisi Mercedes-Benz 300 SL Araba  Yapım Seti 1600 Parça HWW25
 2025-09-26 13:23  ✔    4999.00    Hot Wheels F1 Hero Yarış Pisti JDY16
 2025-09-26 13:23  ✔    3499.99    Hot Wheels F1 Temel Yarış Pisti JDY15
-2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm14 Visa Cash App Rb Formula One Team (#22)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd79 Visa Cash App Racing Bulls Formula One Team (#30)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd81 Mclaren Formula 1 Team (#81)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd88 Mclaren Formula 1 Team (#4)
@@ -143,6 +142,7 @@
 2022-02-15 15:17  ✔    1999.99    Hot Wheels Çift Çemberde Depar Pist Seti GFH85
 2022-02-15 15:17  ✔    1999.99    Hot Wheels Çok Çemberli Yarış HDR83
 2022-02-15 15:17  ✔    1599.99    Hot Wheels Track Builder Unlimited Benzin Bidonu Akrobasi Seti HDX78
+2022-01-31 08:52  ✔     799.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - 68-Yeşil
 2022-01-31 08:52  ✔     799.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - Hmm54 Gunkster
 2022-01-31 08:52  ✔     799.99    Hot Wheels Fırlatıcı ve Taşıyıcı Ejderha GTK42
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Köpekbalığı
@@ -276,6 +276,7 @@
 2025-10-07 13:38  ✘    3399.99    Hot Wheels Elite Serisi Corvette Grand Sport Araba Yapım Seti 918 Parça JGR31
 2025-10-07 13:38  ✘    3399.99    Hot Wheels Elite Serisi '90 Acura NSX Araba Yapım Seti 876 Parça JFT17
 2025-10-07 13:38  ✘    1499.99    Hot Wheels Speed Serisi Custom'68 Camaro Araba Yapım Seti 289 Parça JFT16
+2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm14 Visa Cash App Rb Formula One Team (#22)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm24 Visa Cash App Rb Formula One Team (#30)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd78 Moneygram Haas F1 Team (#31)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd80 Mercedes-Amg Petronas Formula One Team (#63)
