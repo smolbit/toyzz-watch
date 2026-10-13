@@ -12,7 +12,7 @@ import requests
 
 API = "https://core.toyzzshop.com/api/characters/38/products"  # 38 = Hot Wheels
 PAGE_SIZE = 48
-MAX_PAGES = 10
+MAX_PAGES = 25
 KEYWORDS = ["premium", "car culture", "boulevard", "pop culture", "team transport",
             "rlc", "red line", "1:64 premium", "fast & furious premium"]
 MAX_PRICE = 500.0  # TL
@@ -21,6 +21,7 @@ CATALOG_FILE = "catalog.txt"
 
 TG_TOKEN = os.getenv("TG_TOKEN")
 TG_CHAT = os.getenv("TG_CHAT")
+TG_FAILED = False
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -62,8 +63,10 @@ def is_match(p: dict) -> bool:
 
 
 def notify(text: str, image: str | None = None):
+    global TG_FAILED
     print(text)
     if not (TG_TOKEN and TG_CHAT):
+        TG_FAILED = True
         print("UYARI: TG_TOKEN / TG_CHAT tanimli degil")
         return
     base = f"https://api.telegram.org/bot{TG_TOKEN}"
@@ -73,6 +76,7 @@ def notify(text: str, image: str | None = None):
             return
     r = requests.post(f"{base}/sendMessage", data={"chat_id": TG_CHAT, "text": text}, timeout=20)
     if not r.ok:
+        TG_FAILED = True
         print("Telegram hatasi:", r.status_code, r.text)
 
 
@@ -120,6 +124,9 @@ def main():
         notify(f"✅ Toyzz izleyici kuruldu. {len(products)} Hot Wheels ürünü tarandı, "
                f"{m} tanesi filtrene uyuyor. Bundan sonra yeni gelen ve tekrar stoğa giren "
                f"500₺ altı premium'ları buraya atacağım.")
+
+    if TG_FAILED:
+        sys.exit("Telegram bildirimi gonderilemedi - secret'lari kontrol et")
 
 
 if __name__ == "__main__":
