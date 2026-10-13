@@ -1,19 +1,188 @@
-HEADERS CODE: serAgent=setUserAgent;lib.useDeviceData=useDeviceData;lib.useDeviceSelectors=useDeviceSelectors;lib.useMobileOrientation=useMobileOrientation;lib.withOrientationChange=withOrientationChange;const encodeArrayValue=tt=>typeof tt=="string"&&tt.includes(",")?tt.split(",").map(st=>encodeURIComponent(st.trim())).join(","):encodeURIComponent(tt),encodeQueryParam=(tt,rt)=>tt.endsWith("[]")?`${tt}=${encodeArrayValue(rt)}`:`${encodeURIComponent(tt)}=${encodeURIComponent(rt)}`,getDeviceType=()=>isMobile_1?isTablet_1?"web_tablet":"web_phone":"web_computer";async function request(tt){var Dt,Lt,Bt,Vt,Ft,Ht,Gt,qt,Yt,Wt,Zt,sr;const{url:rt,method:st,body:ot,options:lt,queries:xt,headerProps:bt,skipApiSegment:$t}=tt,vt={error:!0,...lt},jt={"Content-Type":"application/json",Accept:"application/json",device:getDeviceType(),"browser-name":browserName_1,Origin:window.location.origin,Referer:window.location.href,Country:localStorage.getItem("selected_country")||"TR",...bt},_t=store$8.getState();(Dt=_t==null?void 0:_t.auth)!=null&&Dt.token&&(jt.Authorization=`Bearer ${(Lt=_t==null?void 0:_t.auth)==null?void 0:Lt.token}`),jt["Positive-Client"]="toyzzshop",localStorage.getItem("_guestToken")&&(jt["Guest-Token"]=localStorage.getItem("_guestToken"));let Rt="";xt&&typeof xt=="object"&&(Rt="?"+Object.entries(xt).map(([Kt,Xt])=>encodeQueryParam(Kt,Xt)).join("&"));const wt={method:st,headers:jt};(st.toLowerCase()==="post"||st.toLowerCase()==="put"||st.toLowerCase()==="delete")&&(wt.body=JSON.stringify(ot));
+[getCharacterProducts(] lassName:PropTypes$1.string,enableCaretClassName:PropTypes$1.string,enableHover:PropTypes$1.bool,enableClickOutside:PropTypes$1.bool,variant:PropTypes$1.oneOf(["search"]),isOpen:PropTypes$1.bool,onToggle:PropTypes$1.func};const characterService={getCharacters(){return API.get("characters/popular")},getCharacterProducts(tt,rt){return API.get(`characters/${tt}/products`,rt)}},htmlEntities={"&nbsp;":" ","&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&apos;":"'"},getLinkTitle=(...tt)=>{for(const rt of tt){if(typeof rt!="string")continue;const st=rt.replace(/<[^>]*>/g,"").replace(/&[a-z#0-9]+;/gi,ot=>htmlE
 
-["users/init"] ers/password/reset",tt)},register(tt){return API.post("users/register",tt)},logout(){return API.delete("users/logout",{token:store$8.getState().auth.token})},forgotPassword(tt){return API.post("users/password/forgot",tt)},guestToken(){return API.get("users/init")}},memberService={me(){return API.get("member/me")},update(tt){return API.put("member",tt)},resign(){return API.post("member/resign")},updateConsent(tt){return API.put("member/consent",tt)},updatePassword(tt){return API.put("member/password",tt)},sendSms(tt){return API.post("users/sendsms",tt)},checkSms(tt){return API.post("users/checksms",tt)},ge
+[getCharacterProducts(] actExports.useRef(null);reactExports.useEffect(()=>{tt===!0&&rt("segmentify",{sgf_page_type:{type:"character"}})},[tt]);const{data:_t,isFetching:Rt,isError:wt}=useQuery({queryKey:["character/products",lt==null?void 0:lt.ids[0],xt],queryFn:async()=>Object.keys(xt||{}).length>0?await characterService.getCharacterProducts(lt==null?void 0:lt.ids[0],{limit:48,order:"ocd",...xt}):await characterService.getCharacterProducts(lt==null?void 0:lt.ids[0],{limit:48,order:"ocd"}),enabled:!!(lt!=null&&lt.ids[0])});reactExports.useEffect(()=>{characterActions.setFilters(null)},[]),reactExports.useEffect(()=>{var Mt;Rt?(characterA
 
-[_guestToken] {const rt=[...tt.modals];rt.pop(),tt.modals=rt},_removeAll(tt){tt.modals=[]}}}),{_append,_remove,_removeAll}=modalSlice.actions,modalSlice$1=modalSlice.reducer,authSlice=createSlice({name:"auth",initialState:{user:!1,guestToken:localStorage.getItem("_guestToken")||"",token:localStorage.getItem("_token")||"",step:1},reducers:{_setToken(tt,rt){tt.token=rt.payload,localStorage.setItem("_token",rt.payload)},_setGuestToken(tt,rt){tt.guestToken=rt.payload,localStorage.setItem("_guestToken",rt.payload)},_removeToken(tt){tt.token="",localStorage.removeItem("_token")},_removeGuestToken(tt){tt.guestToken="",localS
+[serial=] gn)||"",virtual_stock:Jt.inStock||0,basket_quantity:1,item_id:Jt==null?void 0:Jt.productId,category_id:((Vr=Jt==null?void 0:Jt.params)==null?void 0:Vr.category_id)||"",url:(()=>{var wr;try{if(!Jt.url)return"#";const Fr=new URL(Jt.url),Yr=Fr.pathname,sn=Fr.searchParams.get("serial");return sn?`${Yr}?serial=${sn}`:Yr}catch{return((wr=Jt.url)==null?void 0:wr.replace("https://www.toyzzshop.com",""))||"#"}})(),brand:Jt.brand||"",category:Array.isArray(Jt.category)?Jt.category:[Jt.category||""],gender:Jt.gender||"",character:((Jr=Jt.params)==null?void 0:Jr.character)||"",min_age:((nn=Jt.params)==null?void 
 
-[_guestToken] n:localStorage.getItem("_guestToken")||"",token:localStorage.getItem("_token")||"",step:1},reducers:{_setToken(tt,rt){tt.token=rt.payload,localStorage.setItem("_token",rt.payload)},_setGuestToken(tt,rt){tt.guestToken=rt.payload,localStorage.setItem("_guestToken",rt.payload)},_removeToken(tt){tt.token="",localStorage.removeItem("_token")},_removeGuestToken(tt){tt.guestToken="",localStorage.removeItem("_guestToken")},_setUser(tt,rt){tt.user=rt.payload,localStorage.setItem("_user",JSON.stringify(rt.payload))},_removeUser(tt){tt.user=!1},_logout(tt){tt.user=!1,tt.token="",tt.guestToken="",localStorage.remove
+[serial=] gn)||"",virtual_stock:Jt.inStock||0,basket_quantity:1,item_id:Jt==null?void 0:Jt.productId,category_id:((Vr=Jt==null?void 0:Jt.params)==null?void 0:Vr.category_id)||"",url:(()=>{var wr;try{if(!Jt.url)return"#";const Fr=new URL(Jt.url),Yr=Fr.pathname,sn=Fr.searchParams.get("serial");return sn?`${Yr}?serial=${sn}`:Yr}catch{return((wr=Jt.url)==null?void 0:wr.replace("https://www.toyzzshop.com",""))||"#"}})(),brand:Jt.brand||"",category:Array.isArray(Jt.category)?Jt.category:[Jt.category||""],gender:Jt.gender||"",character:((Jr=Jt.params)==null?void 0:Jr.character)||"",min_age:((nn=Jt.params)==null?void 
 
-[_guestToken] Item("_token",rt.payload)},_setGuestToken(tt,rt){tt.guestToken=rt.payload,localStorage.setItem("_guestToken",rt.payload)},_removeToken(tt){tt.token="",localStorage.removeItem("_token")},_removeGuestToken(tt){tt.guestToken="",localStorage.removeItem("_guestToken")},_setUser(tt,rt){tt.user=rt.payload,localStorage.setItem("_user",JSON.stringify(rt.payload))},_removeUser(tt){tt.user=!1},_logout(tt){tt.user=!1,tt.token="",tt.guestToken="",localStorage.removeItem("_token"),localStorage.removeItem("_user")},_setStep(tt,rt){tt.step=rt.payload}}}),{_setToken,_removeToken,_removeUser,_setUser,_logout,_removeGuestT
+[orderBy] nvertBy=Q8,cr.invokeMap=O6,cr.iteratee=R1,cr.keyBy=I6,cr.keys=hs,cr.keysIn=Os,cr.map=p0,cr.mapKeys=Z8,cr.mapValues=J8,cr.matches=q9,cr.matchesProperty=W9,cr.memoize=h0,cr.merge=e9,cr.mergeWith=Jm,cr.method=Y9,cr.methodOf=Q9,cr.mixin=w1,cr.negate=g0,cr.nthArg=Z9,cr.omit=t9,cr.omitBy=r9,cr.once=X6,cr.orderBy=M6,cr.over=J9,cr.overArgs=Z6,cr.overEvery=e7,cr.overSome=t7,cr.partial=y1,cr.partialRight=Vm,cr.partition=D6,cr.pick=n9,cr.pickBy=ep,cr.property=op,cr.propertyOf=r7,cr.pull=M5,cr.pullAll=Pm,cr.pullAllBy=D5,cr.pullAllWith=L5,cr.pullAt=z5,cr.range=n7,cr.rangeRight=s7,cr.rearg=J6,cr.reject=F6,cr.remov
 
-[_guestToken] ge.getItem("selected_country")||"TR",...bt},_t=store$8.getState();(Dt=_t==null?void 0:_t.auth)!=null&&Dt.token&&(jt.Authorization=`Bearer ${(Lt=_t==null?void 0:_t.auth)==null?void 0:Lt.token}`),jt["Positive-Client"]="toyzzshop",localStorage.getItem("_guestToken")&&(jt["Guest-Token"]=localStorage.getItem("_guestToken"));let Rt="";xt&&typeof xt=="object"&&(Rt="?"+Object.entries(xt).map(([Kt,Xt])=>encodeQueryParam(Kt,Xt)).join("&"));const wt={method:st,headers:jt};(st.toLowerCase()==="post"||st.toLowerCase()==="put"||st.toLowerCase()==="delete")&&(wt.body=JSON.stringify(ot));const kt="https://core.toyzzshop
+["sort"] in__,pn=!!this.__actions__.length,En=ur&&!en,kn=_r&&!pn;if(!ur&&Ar){fr=kn?fr:new In(this);var bn=St.apply(fr,yr);return bn.__actions__.push({func:m0,args:[Br],thisArg:st}),new qs(bn,en)}return En&&kn?St.apply(this,yr):(bn=this.thru(Br),En?er?bn.value()[0]:bn.value():bn)})}),Ls(["pop","push","shift","sort","splice","unshift"],function(St){var At=Lu[St],Ut=/^(?:push|sort|unshift)$/.test(St)?"tap":"thru",er=/^(?:pop|shift)$/.test(St);cr.prototype[St]=function(){var or=arguments;if(er&&!this.__chain__){var ur=this.value();return At.apply(Sn(ur)?ur:[],or)}return this[Ut](function(fr){return At.apply(Sn(f
 
---- users/init: 200 application/json
-{"meta":{"messages":{"success":[],"warning":[],"error":[]}},"payload":{"guest_token":"hsrMrdV0o30YXawC2WS6uXYJOFVXZyagIudMiLVV"}}
+["sort"] 7s-8.474 1.773-11.421 4.65l0.003-0.003-22.89 22.89c-2.874 2.944-4.647 6.974-4.647 11.418s1.773 8.474 4.65 11.421l-0.003-0.003 124.26 123.933 124.042-123.933c2.874-2.944 4.647-6.974 4.647-11.418s-1.773-8.474-4.65-11.421l0.003 0.003z"],width:644,attrs:[{},{},{}],isMulticolor:!1,isMulticolor2:!1,tags:["sort"],grid:0},attrs:[{},{},{}],properties:{order:322,id:0,name:"sort",prevSize:32,code:59764},setIdx:15,setId:38,iconIdx:0},{icon:{paths:["M322.023 0v0c-0.065-0-0.141-0-0.218-0-177.632 0-321.65 143.922-321.805 321.518l-0 0.015v386.33c3.327 175.222 146.154 315.991 321.86 315.991s318.533-140.769 321.855-3
 
-TOKEN=None
+[per_page] `${$t.current.length} ürün dataLayer'a gönderiliyor`);const Bt=[...$t.current].sort((Vt,Ft)=>Vt.index-Ft.index);st.trackProductListView(Bt,{listId:Rt,listName:kt,useProductIndex:!0}),$t.current=[]};reactExports.useEffect(()=>{if(!(tt!=null&&tt.length)||xt.current)return;const Bt=(jt==null?void 0:jt.per_page)||(jt==null?void 0:jt.limit)||48,Ft=((parseInt(jt==null?void 0:jt.page)||1)-1)*Bt,Ht=setTimeout(()=>{Mt();const Gt=window.innerWidth<768?4:6,qt=tt.slice(0,Gt).map((Yt,Wt)=>{const Zt=Tt(Yt);lt.current.add(Zt);const sr=Ft+Wt+1;return rt.debug&&console.log(`İlk yükleme - Ürün görünür: ${Yt.product_nam
 
---- characters/38/products noauth: 200 application/json
-{"meta":{"messages":{"success":[],"warning":[],"error":[]}},"payload":{"products":[{"brand":"Hot Wheels","brand_id":3657,"id":62551,"serial_id":108240,"serial_title":"-","price":{"original":10999,"original_str":"10.999,00","whole":10999,"whole_str":"10999","fraction":0,"fraction_str":"00","currency":"TL","currency_symbol":"\u20ba","decimal_seperator":",","thousands_separator":"."},"campaign_label":null,"slug":"hot-wheels-ultimate-t-rex-garaji-jhl98","visit_count":0,"fix_status":false,"gift_status":0,"min_age":"4","max_age":"20","gender":"Erkek","product_code":"T000JHL98","gift_pack_status":0,"commercial_title":null,"commercial_address":null,"commercial_email":null,"ce_conformity_symbol":null,"exclusive":false,"comment_count":0,"created_at":"2026-09-17 09:13:08.222034","new_product":true,"on_toyzzshopcom":false,"quantity":8,"title":"Hot Wheels Ultimate T-Rex Garaj\u0131 JHL98","discount_ratio":0,"is_discounted":false,"virtual_stock":1,"product_name":"Hot Wheels Ultimate T-Rex Garaj\u0131 JHL98","old_price":{"original":10999,"original_str":"10.999,00","whole":10999,"whole_str":"10999","fraction":0,"fraction_str":"00","currency":"TL","currency_symbol":"\u20ba","decimal_seperator":",","thousands_separator":"."},"category_breadcrumbs_slug":"oyun-setleri\/erkek-oyun-setleri","category_id":39,"image_url":"https:\/\/docsd.toyzzshop.com\/product\/300x300\/b7bf1_Hot_Wheels_Ultimate_T_Rex_Garaji_JHL98.jpg","product_name_new":"Hot Wheels Ultimate T-Rex Garaj\u0131 JHL98","is_in_favorite":false,"has_video":true,"has_ar":false},{"brand":"Hot Wheels","brand_id":3657,"id":62531,"serial_id":108216,"serial_title":"-","price":{"original":5999,"original_str":"5.999,00","whole":5999,"whole_str":"5999","fraction":0,"fraction_str":"00","currency":"TL","currency_symbol":"\u20ba","decimal_seperator":",","thousands_separator":"."},"campaign_label":null,"slug":"hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90","visit_count":0,"fix_status":false,"gift_status":0,"min_age":"5","max_age":"8","gender":"Erkek","product_code":"T000JMC90","gift_pack_status":0,"commercial_title":null,"commercial_address":null,"commercial_email":null,"ce_conformity_symbol":null,"exclusive":false,"comment_count":0,"created_at":"2026-09-16 14:03:12.323708","new_product":true,"on_toyzzshopcom":false,"quantity":24,"title":"Hot Wheels Yar\u0131\u015flar\u0131 Formula 1 Yoku\u015f A\u015fa\u011f\u0131 Pist Yar\u0131\u015f\u0131 JMC90","discount_ratio":0,"is_discounted":false,"virtual_stock":1,"product_n
+[per_page] onst Ht=Ft.target.dataset.productId,Gt=Ft.target.dataset.serialId||"0",qt=parseInt(Ft.target.dataset.index),Yt=`${Ht}_${Gt}`;if(Ft.isIntersecting&&!lt.current.has(Yt)){const Wt=tt.find(Jt=>String(Jt.id)===String(Ht)&&String(Jt.serial_id||"0")===String(Gt));if(!Wt)return;const Zt=(jt==null?void 0:jt.per_page)||(jt==null?void 0:jt.limit)||48,Xt=((parseInt(jt==null?void 0:jt.page)||1)-1)*Zt+qt+1;lt.current.add(Yt),$t.current.push({...Wt,index:Xt}),Vt=!0,rt.debug&&console.log(`Scroll sonrası görünür: ${Wt.product_name||Wt.title} (${Wt.serial_title||"-"}), ID: ${Wt.id}, Serial ID: ${Wt.serial_id||"-"}, ind
+
+[limit:] wSpan:!0,gridRowStart:!0,gridColumn:!0,gridColumnEnd:!0,gridColumnSpan:!0,gridColumnStart:!0,fontWeight:!0,lineClamp:!0,lineHeight:!0,opacity:!0,order:!0,orphans:!0,tabSize:!0,widows:!0,zIndex:!0,zoom:!0,fillOpacity:!0,floodOpacity:!0,stopOpacity:!0,strokeDasharray:!0,strokeDashoffset:!0,strokeMiterlimit:!0,strokeOpacity:!0,strokeWidth:!0},qb=["Webkit","ms","Moz","O"];Object.keys(pb).forEach(function(tt){qb.forEach(function(rt){rt=rt+tt.charAt(0).toUpperCase()+tt.substring(1),pb[rt]=pb[tt]})});function rb(tt,rt,st){return rt==null||typeof rt=="boolean"||rt===""?"":st||typeof rt!="number"||rt===0||pb
+
+[limit:] 21-20.522 0-37.159-16.637-37.159-37.159 0-20.52 16.633-37.156 37.153-37.159l0-0c20.562 0.185 37.16 16.897 37.16 37.485 0 0.109-0 0.219-0.001 0.328l0-0.017z"],width:1723,attrs:[{fill:"rgb(255, 255, 255)"},{fill:"none",stroke:"rgb(245, 245, 245)",strokeLinejoin:"miter",strokeLinecap:"butt",strokeMiterlimit:"4",strokeWidth:18.215130960960778},{fill:"rgb(255, 255, 255)"},{fill:"none",stroke:"rgb(245, 245, 245)",strokeLinejoin:"miter",strokeLinecap:"butt",strokeMiterlimit:"4",strokeWidth:18.215130960960778},{fill:"rgb(255, 255, 255)"},{fill:"rgb(152, 209, 125)"},{fill:"rgb(255, 255, 255)"},{fill:"rgb(255
+
+--- default {}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- page2 {'page': 2}: 200 n=24 other_keys=[]
+{}
+
+   2026-04-13 q=4 1599.99 1:24 Hot Wheels Monster Trucks Tiger Shark Uzaktan Kumandalı | 1-24-hot-wheels-monster-trucks-tiger-shark-uzaktan-kumandali-araba-hnv03 sid=103509
+
+   2026-04-13 q=105 999.99 1:64 Hot Wheels Silver Serisi Zamac Temalı 6’lı Araba Seti J | 1-64-hot-wheels-silver-serisi-zamac-temali-6li-araba-seti-jlb26 sid=103508
+
+   2026-04-13 q=27 599.99 1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hwh35 Dim | 1-43-hot-wheels-diecast-cek-ve-birak-araba-hpr70 sid=103516
+
+   2026-04-13 q=6 599.99 1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hwh44 Bat | 1-43-hot-wheels-diecast-cek-ve-birak-araba-hpr70 sid=103517
+
+   2026-04-13 q=1 599.99 1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hwh46 202 | 1-43-hot-wheels-diecast-cek-ve-birak-araba-hpr70 sid=103518
+
+   2026-04-13 q=5 599.99 1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hyc40 Mer | 1-43-hot-wheels-diecast-cek-ve-birak-araba-hpr70 sid=103520
+
+--- sort {'sort': 'new'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- sort {'sort': 'newest'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- sort {'sort': 'en-yeniler'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- sort {'sort': 'created_at'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- sort {'sort': '-created_at'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- sort {'sort': 'price_asc'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- sort {'sort': 'price'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- q premium {'q': 'premium'}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- search api {}: 200 n=24 other_keys=[]
+{}
+
+   2026-09-17 q=8 10999 Hot Wheels Ultimate T-Rex Garajı JHL98 | hot-wheels-ultimate-t-rex-garaji-jhl98 sid=108240
+
+   2026-09-16 q=24 5999 Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90 | hot-wheels-yarislari-formula-1-yokus-asagi-pist-yarisi-jmc90 sid=108216
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108217
+
+   2026-09-16 q=41 1299 Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 -  | hot-wheels-monster-trucks-mutant-kaosu-coklu-paketi-jmv37 sid=108218
+
+   2026-09-16 q=17 3999 Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti  | hot-wheels-akrobasi-pistleri-hiperkure-turbo-carpisma-pisti-jmg48 sid=108214
+
+   2026-08-19 q=5 1399 1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Arab | 124-hot-wheels-monster-trucks-barbie-uzaktan-kumandali-araba-jhw58 sid=107270
+
+--- search/products: 200 {"meta":{"messages":{"success":[],"warning":[],"error":[]}},"payload":{"products":[{"brand":"Witty Puzzlezz","brand_id":4280,"id":62904,"serial_id":108870,"serial_title":"-","price":{"original":269.99,"original_str":"269,99","whole":269,"whole_str":"269","fraction":"99","fraction_str":"99","currency":"TL","currency_symbol":"\u20ba","decimal_seperator":",","thousands_separator":"."},"campaign_label":null,"slug":"60-parca-puzzle-gupi-ve-arkadaslari","visit_count":0,"fix_status":false,"gift_status":0,"min_age":"3","max_age":"6","gender":"Unisex","product_code":"S01006695","gift_pack_status":0,"commercial_title":null,"commercial_address":null,"commercial_email":null,"ce_conformity_symbol":null,"exclusive":false,"comment_count":0,"created_at":"2026-10-05 16:03:12.09876","new_product":true,"on_toyzzshopcom":false,"quantity":18,"title":"60 Par\u00e7a Puzzle: Gupi ve Arkada\u015flar\u0131","discount_ratio":0,"is_discounted":false,"virtual_stock":1,"product_name":"60 Par\u00e7a Puzzle: Gupi ve Arkada\u015flar\u0131","old_price":{"original":269.99,"original_str":"269,99","whole":269,"whole_str":"269","fraction":"99","fraction_str":"99","currency":"TL","currency_symbol":"\u20ba","decimal_seperator":",","thousands_separator":"."},"category_breadcrumbs_slug":"puzzle\/cocuk-puzzle","category_id":82,"image_url":"https:\/\/docsd.toyzzshop.com\/product\/300x300\/d096c_60_Parca_Puzzle__Gupi_ve_Arkadaslari.jpg","product_name_new":"60 Par\u00e7a Puzzle: Gupi ve Arkada\u015flar\u0131","is_in_favo
