@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # elle "Run workflow" ile test icin
   push:
     branches: [main]
-    paths-ignore: [seen.json, debug.txt, debug.html]
+    paths-ignore: [seen.json, debug.txt, debug.html, probe.py, probe.txt, .github/workflows/probe.yml]
 
 permissions:
   contents: write
