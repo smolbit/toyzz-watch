@@ -7,6 +7,7 @@ Toyzz Shop Hot Wheels izleyici (GitHub Actions)
 import json
 import os
 import sys
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -82,10 +83,14 @@ def notify(text: str, image: str | None = None):
         log_tg("OK - mesaj gitti")
 
 
+def now_tr() -> datetime:
+    return datetime.now(timezone(timedelta(hours=3)))
+
+
 def log_tg(msg: str):
     print(msg)
     with open("tg_status.txt", "w", encoding="utf-8") as f:
-        f.write(msg + "\n")
+        f.write(f"{now_tr():%Y-%m-%d %H:%M} {msg}\n")
 
 
 def fmt(p: dict, header: str) -> str:
@@ -127,8 +132,22 @@ def main():
     with open(CATALOG_FILE, "w", encoding="utf-8") as f:
         f.write("# tarih  stok  fiyat  *=filtreye uyuyor  isim\n" + "\n".join(lines) + "\n")
 
+    in_stock_matches = sum(1 for p in products.values() if is_match(p) and p["in_stock"])
     if os.getenv("TG_TEST"):
-        notify("🔔 Test mesajı: Toyzz izleyici çalışıyor.")
+        notify(f"🔔 Test: Toyzz izleyici çalışıyor. {len(products)} ürün tarandı, "
+               f"filtrene uyup stokta olan {in_stock_matches} ürün var.")
+
+    # Her sabah 09:00'dan sonraki ilk taramada "hala calisiyorum" mesaji
+    today = now_tr().strftime("%Y-%m-%d")
+    try:
+        last = open("heartbeat.txt").read().strip()
+    except FileNotFoundError:
+        last = ""
+    if now_tr().hour >= 9 and last != today and not first_run:
+        notify(f"☀️ Günaydın, izleyici çalışıyor. {len(products)} Hot Wheels ürünü takipte, "
+               f"filtrene uyup stokta olan {in_stock_matches} ürün var.")
+        with open("heartbeat.txt", "w") as f:
+            f.write(today + "\n")
 
     if first_run:
         m = sum(1 for p in products.values() if is_match(p))

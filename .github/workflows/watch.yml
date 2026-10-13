@@ -1,11 +1,11 @@
 name: Toyzz Hot Wheels Watch
 
-# GitHub'in kendi zamanlayicisi guvenilmez oldugu icin:
-# tek bir calisma ~5.5 saat boyunca DAKIKADA BIR tarar, bitince kendini yeniden baslatir.
-# Zincir koparsa asagidaki cron yedek olarak tekrar baslatir.
+# Her calisma: 1 kez tarar -> 30 dk bekler -> bir sonrakini baslatir (zincir).
+# GitHub'in kendi zamanlayicisi bu repoda tetiklenmedigi icin zincir kullaniliyor;
+# cron sadece zincir koparsa yedek.
 on:
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "23 */3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -22,7 +22,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
 
@@ -32,30 +32,25 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Dakikada bir tara
+      - name: Tara
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
-          FIRST_TEST: ${{ github.event_name != 'schedule' && '1' || '' }}
+          TG_TEST: ${{ github.event_name == 'push' && '1' || '' }}
+        run: python toyzz_watch.py || echo "tarama hatasi"
+
+      - name: Durumu kaydet
         run: |
           git config user.name "toyzz-bot"
           git config user.email "toyzz-bot@users.noreply.github.com"
-          end=$((SECONDS + 20400))   # ~5 saat 40 dk
-          first=1
-          while [ $SECONDS -lt $end ]; do
-            if [ "$first" = 1 ] && [ -n "$FIRST_TEST" ]; then export TG_TEST=1; else unset TG_TEST; fi
-            first=0
-            python toyzz_watch.py || echo "tarama hatasi, devam"
-            for f in seen.json catalog.txt tg_status.txt; do [ -f "$f" ] && git add "$f"; done
-            if ! git diff --cached --quiet; then
-              git commit -q -m "durum guncellendi"
-              git pull -q --rebase && git push -q || echo "push hatasi, devam"
-            fi
-            sleep 60
-          done
+          for f in seen.json catalog.txt tg_status.txt heartbeat.txt; do [ -f "$f" ] && git add "$f"; done
+          git diff --cached --quiet || (git commit -q -m "durum guncellendi" && git pull -q --rebase && git push -q) || true
 
-      - name: Kendini yeniden baslat
-        if: always()
+      - name: 30 dk bekle
+        run: sleep ${{ github.event_name == 'push' && '20' || '1800' }}
+
+      - name: Sonraki taramayi baslat
+        if: success() || failure()
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run watch.yml --ref main
