@@ -1,100 +1,144 @@
-JS /assets/index-HOo-nmsx.js len=3339031
-CTX[baseURL] /assets/index-HOo-nmsx.js: ction vt(_t,Rt,wt){if(utils$1.hasOwnProp(rt,wt))return ot(_t,Rt);if(utils$1.hasOwnProp(tt,wt))return ot(void 0,_t)}const jt={url:xt,method:xt,data:xt,baseURL:bt,transformRequest:bt,transformResponse:bt,paramsSerializer:bt,timeout:bt,timeoutErrorMessage:bt,withCredentials:bt,withXSRFToken:bt,adapter:bt,responseType:bt,xsrfCookieName:bt,xsrfHeaderName:bt,onUploadProgress:bt,onDownloadProgress:bt,decompress
-CTX[baseUrl] /assets/index-HOo-nmsx.js: ,data:tt==null?void 0:tt.characters,type:filterTypes.CHARACTERS}].filter(lt=>{var xt;return((xt=lt.data)==null?void 0:xt.length)>0}),useQueryParams=({baseUrl:tt,...rt})=>{const[st]=useSearchParams(),{slug:ot,subSlug:lt,id:xt}=useParams(),$t=useLocation().pathname==="/arama",vt=useNavigate(),[jt,_t]=reactExports.useState({});reactExports.useEffect(()=>{var It,Dt;let kt=st.get("q")||"";if($t){const Lt=[];s
-CTX[karakter] /assets/index-HOo-nmsx.js: 61.44v0c36.864 0 64.853-27.307 66.219-61.44 2.048-61.44 51.883-109.909 114.005-109.909h8.192z"],attrs:[{},{}],isMulticolor:!1,isMulticolor2:!1,tags:["karakterler"],grid:0},attrs:[{},{}],properties:{order:310,id:7,name:"characters",prevSize:32,code:59681},setIdx:0,setId:53,iconIdx:7},{icon:{paths:["M271.701 965.291c-57.344 0-103.765-45.056-105.131-102.4-1.365-58.027 44.373-106.496 102.4-108.544 59.392 0 10
-JS /assets/redux-toolkit.js len=13914
-=== URL/PATH STRINGS ===
-//cdn.segmentify.com/9fe8cd52-85b7-4b5d-b0f7-31b3f4d22569/search.css    <- /assets/index-HOo-nmsx.js
-//cdn.segmentify.com/9fe8cd52-85b7-4b5d-b0f7-31b3f4d22569/search.js    <- /assets/index-HOo-nmsx.js
-/0-12ay-urunleri    <- /assets/index-HOo-nmsx.js
-/1-2yas-urunleri    <- /assets/index-HOo-nmsx.js
-/3-5yas-urunleri    <- /assets/index-HOo-nmsx.js
-/arama?q=${Vt.search}    <- /assets/index-HOo-nmsx.js
-/custom-list/    <- /assets/index-HOo-nmsx.js
-/fisher-price-anne-ve-bebek-urunleri    <- /assets/index-HOo-nmsx.js
-/img/product/play.png    <- /assets/index-HOo-nmsx.js
-/img/product/play.svg    <- /assets/index-HOo-nmsx.js
-/img/product/video_play.svg    <- /assets/index-HOo-nmsx.js
-/img/product/videocover.jpg    <- /assets/index-HOo-nmsx.js
-/img/user/gift-cards/hediyeceki_list.png    <- /assets/index-HOo-nmsx.js
-/indirimli-urunler    <- /assets/index-HOo-nmsx.js
-/karakter/${Bt.slug}    <- /assets/index-HOo-nmsx.js
-/karakter/${Ft.slug}    <- /assets/index-HOo-nmsx.js
-/karakter/${Lt.slug}    <- /assets/index-HOo-nmsx.js
-/karakter/cars/36    <- /assets/index-HOo-nmsx.js
-/karakter/hot-wheels/38    <- /assets/index-HOo-nmsx.js
-/karakter/littlest-pet-shop/230    <- /assets/index-HOo-nmsx.js
-/karakter/lol/152    <- /assets/index-HOo-nmsx.js
-/karakter/paw-patrol/142    <- /assets/index-HOo-nmsx.js
-/karakterler    <- /assets/index-HOo-nmsx.js
-/kategoriler    <- /assets/index-HOo-nmsx.js
-/listManagement    <- /assets/index-HOo-nmsx.js
-/liste/    <- /assets/index-HOo-nmsx.js
-/liste/${vt}    <- /assets/index-HOo-nmsx.js
-/marka/    <- /assets/index-HOo-nmsx.js
-/marka/${vt}    <- /assets/index-HOo-nmsx.js
-http://Toyzzshop.com    <- /assets/index-HOo-nmsx.js
-http://dummy.com    <- /assets/index-HOo-nmsx.js
-http://dummy.com${tt}    <- /assets/index-HOo-nmsx.js
-http://kariyer.toyzzshop.com/acik-pozisyonlar    <- /assets/index-HOo-nmsx.js
-http://localhost    <- /assets/index-HOo-nmsx.js
-http://www.w3.org/1998/Math/MathML    <- /assets/index-HOo-nmsx.js
-http://www.w3.org/1999/xhtml    <- /assets/index-HOo-nmsx.js
-http://www.w3.org/1999/xlink    <- /assets/index-HOo-nmsx.js
-http://www.w3.org/2000/svg    <- /assets/index-HOo-nmsx.js
-http://www.w3.org/XML/1998/namespace    <- /assets/index-HOo-nmsx.js
-https://apps.apple.com/us/app/toyzz-shop/id1516486062    <- /assets/index-HOo-nmsx.js
-https://core.toyzzshop.com/api    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com/product/100x100/${Nt.url}    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com/product/100x100/${st.images[0].url}    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com/product/300x300/${st.images[0].url}    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com/product/600x600/${xt.images[0].url}    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com/product/orj/${Xt.url}    <- /assets/index-HOo-nmsx.js
-https://docsd.toyzzshop.com/product/orj/${ar.url}    <- /assets/index-HOo-nmsx.js
-https://e-sirket.mkk.com.tr/?page=company&company=13733#    <- /assets/index-HOo-nmsx.js
-https://embed.tintmap.dev/v1/tint-map.js    <- /assets/index-HOo-nmsx.js
-https://github.com/zloirock/core-js    <- /assets/index-HOo-nmsx.js
-https://github.com/zloirock/core-js/blob/v3.50.0/LICENSE    <- /assets/index-HOo-nmsx.js
-https://per2.segmentify.com    <- /assets/redux-toolkit.js
-https://play.google.com/store/apps/details?id=com.positive.toyzzshop.eshopapp&hl=tr    <- /assets/index-HOo-nmsx.js
-https://player.flipsnack.com?hash=Rjk5QzdBRjdDNkYreHQ5YXp2dmU0Nw==    <- /assets/index-HOo-nmsx.js
-https://reactjs.org/docs/error-decoder.html?invariant=    <- /assets/index-HOo-nmsx.js
-https://schema.org    <- /assets/index-HOo-nmsx.js
-https://schema.org/InStock    <- /assets/index-HOo-nmsx.js
-https://schema.org/NewCondition    <- /assets/index-HOo-nmsx.js
-https://schema.org/OutOfStock    <- /assets/index-HOo-nmsx.js
-https://test.masterpassturkiye.com/MasterpassJsonServerHandler/v2    <- /assets/index-HOo-nmsx.js
-https://toyzzclub.com    <- /assets/index-HOo-nmsx.js
-https://toyzzgelisim.com    <- /assets/index-HOo-nmsx.js
-https://toyzzgelisim.com/    <- /assets/index-HOo-nmsx.js
-https://toyzzshop.com    <- /assets/index-HOo-nmsx.js
-https://trapi.segmentify.com    <- /assets/redux-toolkit.js
-https://www.    <- /assets/index-HOo-nmsx.js
-https://www.eticaret.gov.tr/siteprofil/B8CD488A30DA4474B7539D43FB88727E/wwwtoyzzshopcom    <- /assets/index-HOo-nmsx.js
-https://www.facebook.com/ToyzzShop/    <- /assets/index-HOo-nmsx.js
-https://www.facebook.com/toyzzshop    <- /assets/index-HOo-nmsx.js
-https://www.googletagmanager.com/gtm.js?id=    <- /assets/redux-toolkit.js
-https://www.googletagmanager.com/ns.html?id=GTM-NSW86HV    <- /assets/redux-toolkit.js
-https://www.gstatic.com/recaptcha/releases    <- /assets/index-HOo-nmsx.js
-https://www.instagram.com/toyzzshop    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com${lt.pathname}    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com${ot.pathname}    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com${window.location.pathname}    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/boyalar-ve-boya-kalemleri    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/defterler    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/img/logo.png    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/kalem-kutusu    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/kirtasiye-ve-okul    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/okul-cantalari    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/okul-cantalari/anaokulu-cantasi    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/okul-cantalari/beslenme-cantasi    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/okul-cantalari/cekcekli-okul-cantasi    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/okul-cantalari/sirt-cantasi    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/okula-donus-alisverisi    <- /assets/index-HOo-nmsx.js
-https://www.toyzzshop.com/suluk-matara    <- /assets/index-HOo-nmsx.js
-https://www.x.com/toyzzshop    <- /assets/index-HOo-nmsx.js
-https://www.youtube.com/embed/${st}?rel=0&modestbranding=1&playsinline=1&autoplay=${rt?1:0}    <- /assets/index-HOo-nmsx.js
-https://x.com/toyzzshop    <- /assets/index-HOo-nmsx.js
+=== AXIOS CALLS ===
+GET Content-Type
+GET Location
+GET agreements/distance/${tt}
+GET agreements/electronic-communication
+GET agreements/kvkk
+GET agreements/light_agreement
+GET agreements/pre_info/${tt}
+GET agreements/privacy
+GET agreements/user_terms
+GET amail/memberSaleSurvey/${tt}/${rt}/${st}
+GET banklist
+GET banners/${tt}
+GET basket
+GET brands/${tt}/products
+GET campaigns
+GET cargoes/${tt==null?void 0:tt.saleId}
+GET categories/${tt}/banner
+GET categories/${tt}/products
+GET categories/menu
+GET characters/${tt}/products
+GET characters/popular
+GET content-type
+GET customlists
+GET customlists/${tt}/products
+GET customlists/en-yeniler/products
+GET customlists/indirimli-urunler/products
+GET delivery
+GET error
+GET expired
+GET faqs
+GET faqs/${tt}
+GET gift-note/${tt}
+GET installments
+GET invoice
+GET member/alarms
+GET member/announcement
+GET member/announcement/check
+GET member/children
+GET member/me
+GET member/messages
+GET member/messages/${tt}
+GET member/messages/categories
+GET member/messages/sales
+GET member/messages/subjects
+GET member/orders
+GET member/orders/${tt}
+GET member/promotions
+GET member/used-promotions
+GET member_code
+GET new_password_code
+GET payment/masterpass/generate-client-token
+GET point
+GET products
+GET products/${tt.productId}/detail
+GET products/${tt}/comments
+GET products/view/${tt.productId}/${tt.productSerial}
+GET sale/${tt}
+GET sale/${tt}/rebate
+GET sale/prepare
+GET salecode
+GET saleid
+GET search/autocomplete
+GET search/autocomplete/popular
+GET search/products
+GET serial
+GET set-cookie
+GET showcases/${tt}
+GET stores
+GET stores/filled
+GET stores/filterByCountry/${tt}
+GET sys/cities
+GET sys/cities/${tt}
+GET sys/country-list
+GET sys/parameters/control/restricted_bin_list
+GET sys/parameters/site_parameter/basket_expire_limit
+GET sys/parameters/site_parameter/basket_expire_min_count
+GET sys/parameters/site_parameter/min_web_version
+GET tint-map
+GET users/init
+GET wishlists/favorite
+POST amail/memberSaleSurveyPost
+POST basket
+POST basket/${tt}/gift-package
+POST basket/gift
+POST basket/quantity
+POST cargoes/set-cargo
+POST delivery
+POST delivery-and-invoice
+POST invoice
+POST member/add-children
+POST member/alarms
+POST member/messages
+POST member/messages/${tt}
+POST member/resign
+POST payment/bank-transfer
+POST payment/credit-card
+POST payment/installments
+POST payment/masterpass/commit-purchase
+POST payment/masterpass/generate-payment-token
+POST payment/masterpass/info
+POST products/${tt.product_id}/comments
+POST promotion/add
+POST sale/${tt.saleId}
+POST sale/${tt}
+POST sale/${tt}/cancel
+POST sale/${tt}/rebate
+POST sale/contract/send
+POST segmentify-event/page-view
+POST segmentify-event/product-view
+POST sys/meta-data
+POST users/authenticate
+POST users/checksms
+POST users/password/forgot
+POST users/password/reset
+POST users/register
+POST users/sendsms
+POST wishlists/favorite
+PUT delivery/${tt}
+PUT invoice/${tt}
+PUT member
+PUT member/children
+PUT member/consent
+PUT member/password
+=== CONTEXTS ===
+[core.toyzzshop.com] getItem("_guestToken"));let Rt="";xt&&typeof xt=="object"&&(Rt="?"+Object.entries(xt).map(([Kt,Xt])=>encodeQueryParam(Kt,Xt)).join("&"));const wt={method:st,headers:jt};(st.toLowerCase()==="post"||st.toLowerCase()==="put"||st.toLowerCase()==="delete")&&(wt.body=JSON.stringify(ot));const kt="https://core.toyzzshop.com/api";let Tt=kt;$t&&(Tt=kt.replace(/\/api(\/|$)/,"/")),Tt.endsWith("/")||(Tt+="/");const Nt=rt.startsWith("/")?rt.substring(1):rt,Mt=Tt+Nt+Rt,Pt=await fetch(Mt,wt),It=await Pt.json();if(![200,201,204].includes(Pt==null?void 0:Pt.status)){if((Pt==null?void 0:Pt.status)===401){const Kt=(Ft=(Vt=(Bt=It=
+[getCharacter] ete:(tt,rt,st={},ot=!1)=>request({method:"DELETE",body:rt,url:tt,skipApiSegment:ot,headerProps:st})},homeService={getBanners(tt){return API.get(`banners/${tt}`)},getOpportunity(tt){return API.get("customlists/indirimli-urunler/products",tt)},getShowcases(tt,rt){return API.get(`showcases/${tt}`,rt)},getCharacters(){return API.get("characters/popular")},getCustomLists(){return API.get("customlists")},getMonthHighlights(tt){return API.get("customlists/en-yeniler/products",tt)},getSearchPopular(){return API.get("search/autocomplete/popular")},getSearchSuggestions(tt){return API.get("search/autocomplete",tt)}}
+[getCharacter] pTypes$1.string,fontSize:PropTypes$1.number,containerClassName:PropTypes$1.string,enableCaretClassName:PropTypes$1.string,enableHover:PropTypes$1.bool,enableClickOutside:PropTypes$1.bool,variant:PropTypes$1.oneOf(["search"]),isOpen:PropTypes$1.bool,onToggle:PropTypes$1.func};const characterService={getCharacters(){return API.get("characters/popular")},getCharacterProducts(tt,rt){return API.get(`characters/${tt}/products`,rt)}},htmlEntities={"&nbsp;":" ","&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&apos;":"'"},getLinkTitle=(...tt)=>{for(const rt of tt){if(typeof rt!="string")continue;const 
+[getCharacter] lassName:PropTypes$1.string,enableCaretClassName:PropTypes$1.string,enableHover:PropTypes$1.bool,enableClickOutside:PropTypes$1.bool,variant:PropTypes$1.oneOf(["search"]),isOpen:PropTypes$1.bool,onToggle:PropTypes$1.func};const characterService={getCharacters(){return API.get("characters/popular")},getCharacterProducts(tt,rt){return API.get(`characters/${tt}/products`,rt)}},htmlEntities={"&nbsp;":" ","&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&apos;":"'"},getLinkTitle=(...tt)=>{for(const rt of tt){if(typeof rt!="string")continue;const st=rt.replace(/<[^>]*>/g,"").replace(/&[a-z#0-9]+;/gi,
+[characters/] ({method:"DELETE",body:rt,url:tt,skipApiSegment:ot,headerProps:st})},homeService={getBanners(tt){return API.get(`banners/${tt}`)},getOpportunity(tt){return API.get("customlists/indirimli-urunler/products",tt)},getShowcases(tt,rt){return API.get(`showcases/${tt}`,rt)},getCharacters(){return API.get("characters/popular")},getCustomLists(){return API.get("customlists")},getMonthHighlights(tt){return API.get("customlists/en-yeniler/products",tt)},getSearchPopular(){return API.get("search/autocomplete/popular")},getSearchSuggestions(tt){return API.get("search/autocomplete",tt)}};function isObject$t(tt){return
+[characters/] es$1.number,containerClassName:PropTypes$1.string,enableCaretClassName:PropTypes$1.string,enableHover:PropTypes$1.bool,enableClickOutside:PropTypes$1.bool,variant:PropTypes$1.oneOf(["search"]),isOpen:PropTypes$1.bool,onToggle:PropTypes$1.func};const characterService={getCharacters(){return API.get("characters/popular")},getCharacterProducts(tt,rt){return API.get(`characters/${tt}/products`,rt)}},htmlEntities={"&nbsp;":" ","&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&apos;":"'"},getLinkTitle=(...tt)=>{for(const rt of tt){if(typeof rt!="string")continue;const st=rt.replace(/<[^>]*>/g,"").re
+[characters/] Name:PropTypes$1.string,enableHover:PropTypes$1.bool,enableClickOutside:PropTypes$1.bool,variant:PropTypes$1.oneOf(["search"]),isOpen:PropTypes$1.bool,onToggle:PropTypes$1.func};const characterService={getCharacters(){return API.get("characters/popular")},getCharacterProducts(tt,rt){return API.get(`characters/${tt}/products`,rt)}},htmlEntities={"&nbsp;":" ","&amp;":"&","&lt;":"<","&gt;":">","&quot;":'"',"&#39;":"'","&apos;":"'"},getLinkTitle=(...tt)=>{for(const rt of tt){if(typeof rt!="string")continue;const st=rt.replace(/<[^>]*>/g,"").replace(/&[a-z#0-9]+;/gi,ot=>htmlEntities[ot]??" ").replace(/\s+/g,"
+[listing] ial_title||Jt.variant||"",discount:lr,price:ir,quantity:Jt.basket_quantity||Yt.quantity||1}})},[tt]),Nt=(qt,Yt={})=>{try{if(!qt)return;window.dataLayer=window.dataLayer||[],window.dataLayer.push({ecommerce:null});const Wt=Tt([qt],{listName:Yt.listName||"Category Listing",listId:Yt.listId||"category_listing",defaultBrand:Yt.defaultBrand||"",index:Yt.index!==void 0?Yt.index:0,quantity:Yt.quantity||1})[0];if(!Wt)return;const Zt=Wt.price*(Yt.quantity||1);window.dataLayer.push({event:"add_to_cart",ecommerce:{currency:"TRY",value:Zt,items:[{item_id:Number(Wt==null?void 0:Wt.item_id)||"",item_serial_id:Numb
+[listing] pon:Wt.coupon||"",index:Math.max(0,Wt.index||0),item_brand:Wt.item_brand||"",item_category:Wt.item_category||"",item_category2:Wt.item_category2||"",item_category3:Wt.item_category3||"",item_category4:Wt.item_category4||"",item_category5:Wt.item_category5||"",item_list_id:Wt.item_list_id||"category_listing",item_list_name:Wt.item_list_name||"Category Listing",item_variant:Wt.item_variant||"",discount:Wt.discount||0,price:Wt.price||0,quantity:Yt.quantity||1}]}})}catch{}},Mt=(qt,Yt={})=>{try{if(!qt)return;window.dataLayer=window.dataLayer||[],window.dataLayer.push({ecommerce:null});const Wt=Tt([qt],{li
+[listing] :Wt.item_variant||"",discount:Wt.discount||0,price:Wt.price||0,quantity:Yt.quantity||1}]}})}catch{}},Pt=(qt,Yt={})=>{try{if(!qt)return;window.dataLayer=window.dataLayer||[],window.dataLayer.push({ecommerce:null});const Wt=Tt([qt],{listName:Yt.listName||"Category Listing",listId:Yt.listId||"category_listing",defaultBrand:Yt.defaultBrand||"",index:Yt.index!==void 0?Yt.index:0,quantity:Yt.quantity||1})[0];if(!Wt)return;const Zt=Wt.price*(Yt.quantity||1);window.dataLayer.push({event:"add_to_wishlist",ecommerce:{currency:"TRY",value:Zt,items:[{item_id:Number(Wt==null?void 0:Wt.item_id)||"",item_serial_id:
+[Listing] ustomListName||Zt,item_variant:Jt.serial_title||Jt.variant||"",discount:lr,price:ir,quantity:Jt.basket_quantity||Yt.quantity||1}})},[tt]),Nt=(qt,Yt={})=>{try{if(!qt)return;window.dataLayer=window.dataLayer||[],window.dataLayer.push({ecommerce:null});const Wt=Tt([qt],{listName:Yt.listName||"Category Listing",listId:Yt.listId||"category_listing",defaultBrand:Yt.defaultBrand||"",index:Yt.index!==void 0?Yt.index:0,quantity:Yt.quantity||1})[0];if(!Wt)return;const Zt=Wt.price*(Yt.quantity||1);window.dataLayer.push({event:"add_to_cart",ecommerce:{currency:"TRY",value:Zt,items:[{item_id:Number(Wt==null?void 
+[Listing] brand:Wt.item_brand||"",item_category:Wt.item_category||"",item_category2:Wt.item_category2||"",item_category3:Wt.item_category3||"",item_category4:Wt.item_category4||"",item_category5:Wt.item_category5||"",item_list_id:Wt.item_list_id||"category_listing",item_list_name:Wt.item_list_name||"Category Listing",item_variant:Wt.item_variant||"",discount:Wt.discount||0,price:Wt.price||0,quantity:Yt.quantity||1}]}})}catch{}},Mt=(qt,Yt={})=>{try{if(!qt)return;window.dataLayer=window.dataLayer||[],window.dataLayer.push({ecommerce:null});const Wt=Tt([qt],{listName:Yt.listName||"Product Detail",listId:Yt.listId
+[Listing] t_name||"Product Detail",item_variant:Wt.item_variant||"",discount:Wt.discount||0,price:Wt.price||0,quantity:Yt.quantity||1}]}})}catch{}},Pt=(qt,Yt={})=>{try{if(!qt)return;window.dataLayer=window.dataLayer||[],window.dataLayer.push({ecommerce:null});const Wt=Tt([qt],{listName:Yt.listName||"Category Listing",listId:Yt.listId||"category_listing",defaultBrand:Yt.defaultBrand||"",index:Yt.index!==void 0?Yt.index:0,quantity:Yt.quantity||1})[0];if(!Wt)return;const Zt=Wt.price*(Yt.quantity||1);window.dataLayer.push({event:"add_to_wishlist",ecommerce:{currency:"TRY",value:Zt,items:[{item_id:Number(Wt==null?v
+[ProductList] Jt)?{eventName:sr,formattedData:Kt}:!1},[Rt,kt,Tt,wt,ot,tt]);return{isDataLayerReady:rt,trackEvent:Gt,trackCustomEvent:Ht,trackBannerView:reactExports.useCallback((qt,Yt={})=>Gt("banner","view",qt,Yt),[Gt]),trackBannerClick:reactExports.useCallback((qt,Yt={})=>Gt("banner","select",qt,Yt),[Gt]),trackProductListView:reactExports.useCallback((qt,Yt={})=>Gt("product","view",qt,Yt),[Gt]),trackProductClick:reactExports.useCallback((qt,Yt={})=>Gt("product","select",qt,Yt),[Gt]),trackCartView:reactExports.useCallback((qt,Yt={})=>Gt("cart","view",qt,{...Yt,customEcommerceFields:{currency:"TRY",value:Yt.value||0,.
+[ProductList] rams)==null?void 0:br.fix_status)==="true",exclusive:((zr=Jt.params)==null?void 0:zr.exclusive)==="true",new_product:((Sr=Jt.params)==null?void 0:Sr.new_product)==="true"}}),title:Kt}}catch{return{products:[],title:""}}}}),bt=(rt==null?void 0:rt.products)||[],$t=(rt==null?void 0:rt.title)||"",{trackProductListView:vt,trackProductClick:jt}=useDataLayer(),[_t,Rt]=reactExports.useState(0),[wt,kt]=reactExports.useState(!0),[Tt,Nt]=reactExports.useState(!1),Mt=tt?2:6,{elementRef:Pt}=useIntersectionObserver({threshold:.1,onFirstVisible:()=>{if((bt==null?void 0:bt.length)>0){const Lt=bt.slice(0,Math.floor(Mt));
+[ProductList] rams)==null?void 0:br.fix_status)==="true",exclusive:((zr=Jt.params)==null?void 0:zr.exclusive)==="true",new_product:((Sr=Jt.params)==null?void 0:Sr.new_product)==="true"}}),title:Kt}}catch{return{products:[],title:""}}}}),bt=(rt==null?void 0:rt.products)||[],$t=(rt==null?void 0:rt.title)||"",{trackProductListView:vt,trackProductClick:jt}=useDataLayer(),[_t,Rt]=reactExports.useState(0),[wt,kt]=reactExports.useState(!0),[Tt,Nt]=reactExports.useState(!1),Mt=tt?2:6,{elementRef:Pt}=useIntersectionObserver({threshold:.1,onFirstVisible:()=>{if((bt==null?void 0:bt.length)>0){const Lt=bt.slice(0,Math.floor(Mt));
+[filterTypes.CHARACTERS] t;if(tt==null)return st;const ot=st.split("/").filter(Boolean),lt={};for(let vt=0;vt<ot.length;vt+=2){const jt=ot[vt],_t=(($t=ot[vt+1])==null?void 0:$t.split(",").filter(Boolean))||[];lt[jt]=_t}const xt=rt.toLowerCase(),bt=[filterTypes.PRICE,filterTypes.AGE,filterTypes.BRANDS,filterTypes.CATEGORIES,filterTypes.CHARACTERS,filterTypes.GENDER,filterTypes.ORDER,filterTypes.PAGE,filterTypes.DEAL,filterTypes.STOCK,filterTypes.EXCLUSIVE,filterTypes.SEARCH_PROPERTY_DETAILS].includes(xt)?tt:tt.toString();if(xt===filterTypes.ORDER||xt===filterTypes.PAGE||xt===filterTypes.DEAL||xt===filterTypes.EXCLUSIVE||xt===filterTypes.STO
+[filterTypes.CHARACTERS] ]):ot===filterTypes.PAGE?rt.page=tt[ot][0]:ot===filterTypes.DEAL?rt.deal=tt[ot][0]:ot===filterTypes.STOCK?rt.stock=tt[ot][0]:ot===filterTypes.EXCLUSIVE?rt.exclusive=tt[ot][0]:ot===filterTypes.SEARCH_PROPERTY_DETAILS?rt["propId[]"]=tt[ot].join(","):ot===filterTypes.AGE||ot===filterTypes.BRANDS||ot===filterTypes.CHARACTERS||ot===filterTypes.CATEGORIES||ot===filterTypes.GENDER?tt[ot].forEach((xt,bt)=>{rt[`${ot}[${bt}]`]=xt}):rt[`${ot}[]`]=tt[ot].join(","))}),rt},getItemValue=(tt,rt)=>{var st,ot,lt,xt;switch(rt){case filterTypes.AGE:return tt.name;case filterTypes.PRICE:return`${tt.start}-${tt.to}`;case filterTypes.CHA
+[filterTypes.CHARACTERS] ypes.CHARACTERS||ot===filterTypes.CATEGORIES||ot===filterTypes.GENDER?tt[ot].forEach((xt,bt)=>{rt[`${ot}[${bt}]`]=xt}):rt[`${ot}[]`]=tt[ot].join(","))}),rt},getItemValue=(tt,rt)=>{var st,ot,lt,xt;switch(rt){case filterTypes.AGE:return tt.name;case filterTypes.PRICE:return`${tt.start}-${tt.to}`;case filterTypes.CHARACTERS:return((st=tt.id)==null?void 0:st.toString())||tt.name;case filterTypes.BRANDS:return((ot=tt.id)==null?void 0:ot.toString())||tt.name;case filterTypes.CATEGORIES:return((lt=tt.id)==null?void 0:lt.toString())||tt.name;case filterTypes.ORDER:return tt.value;case filterTypes.GENDER:return tt.value;cas
