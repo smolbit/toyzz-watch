@@ -1,24 +1,23 @@
 """
-Toyzz Shop Hot Wheels izleyici - GitHub Actions versiyonu
-Her calismada bir kez tarar, yeni + eslesen urun varsa Telegram'a yollar.
-Gorulen urunler seen.json'a yazilir (workflow bunu repoya commit'ler).
+Toyzz Shop Hot Wheels izleyici (GitHub Actions)
+- Toyzz'un kendi API'sinden Hot Wheels urunlerini ceker (en yeniler sirali)
+- Yeni eklenen VEYA tukendikten sonra tekrar stoga giren, isminde anahtar
+  kelime gecen ve MAX_PRICE altindaki urunleri Telegram'a yollar.
 """
 import json
 import os
-import re
 import sys
-from urllib.parse import urljoin
 
 import requests
-from bs4 import BeautifulSoup
 
-URLS = [
-    "https://www.toyzzshop.com/karakter/hot-wheels/38",          # En Yeniler, sayfa 1
-    "https://www.toyzzshop.com/karakter/hot-wheels/38?q=page/2",  # yedek: sayfa 2
-]
-KEYWORDS = ["premium", "car culture", "boulevard", "pop culture", "team transport", "rlc"]
+API = "https://core.toyzzshop.com/api/characters/38/products"  # 38 = Hot Wheels
+PAGE_SIZE = 48
+MAX_PAGES = 10
+KEYWORDS = ["premium", "car culture", "boulevard", "pop culture", "team transport",
+            "rlc", "red line", "1:64 premium", "fast & furious premium"]
 MAX_PRICE = 500.0  # TL
-SEEN_FILE = "seen.json"
+STATE_FILE = "seen.json"
+CATALOG_FILE = "catalog.txt"
 
 TG_TOKEN = os.getenv("TG_TOKEN")
 TG_CHAT = os.getenv("TG_CHAT")
@@ -26,100 +25,101 @@ TG_CHAT = os.getenv("TG_CHAT")
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/128.0 Safari/537.36",
+    "Accept": "application/json",
     "Accept-Language": "tr-TR,tr;q=0.9",
+    "Origin": "https://www.toyzzshop.com",
+    "Referer": "https://www.toyzzshop.com/",
 }
-PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*TL")
-
-
-def parse_price(s: str) -> float:
-    return float(s.replace(".", "").replace(",", "."))
 
 
 def fetch_products() -> dict:
     products = {}
-    debug = []
-    for i, url in enumerate(URLS):
-        try:
-            r = requests.get(url, headers=HEADERS, timeout=30)
-        except Exception as e:
-            debug.append(f"{url}\n  ISTEK HATASI: {e!r}")
-            continue
-        soup = BeautifulSoup(r.text, "html.parser")
-        title = soup.title.get_text(strip=True) if soup.title else "-"
-        debug.append(
-            f"{url}\n  status={r.status_code} len={len(r.text)} title={title!r}\n"
-            f"  serial= sayisi={r.text.count('serial=')} TL sayisi={r.text.count(' TL')}"
-        )
-        if i == 0:
-            with open("debug.html", "w", encoding="utf-8") as f:
-                f.write(r.text)
-        if not r.ok:
-            continue
-        for a in soup.select('a[href*="serial="]'):
-            m = re.search(r"serial=(\d+)", a["href"])
-            if not m:
-                continue
-            text = a.get_text(" ", strip=True)
-            prices = [parse_price(p) for p in PRICE_RE.findall(text)]
-            if not prices:
-                continue
-            products[m.group(1)] = {
-                "name": text,
-                "price": min(prices),
-                "url": urljoin("https://www.toyzzshop.com", a["href"]),
+    for page in range(1, MAX_PAGES + 1):
+        r = requests.get(API, headers=HEADERS, timeout=30,
+                         params={"limit": PAGE_SIZE, "order": "ocd", "page": page})
+        r.raise_for_status()
+        items = r.json().get("payload", {}).get("products", [])
+        for p in items:
+            sid = str(p["serial_id"])
+            products[sid] = {
+                "title": p.get("title") or p.get("product_name") or "-",
+                "price": float(p["price"]["original"]),
+                "old_price": float((p.get("old_price") or p["price"])["original"]),
+                "in_stock": int(p.get("quantity") or 0) > 0,
+                "qty": int(p.get("quantity") or 0),
+                "created": (p.get("created_at") or "")[:16],
+                "url": f"https://www.toyzzshop.com/{p['slug']}?serial={sid}",
+                "image": p.get("image_url"),
             }
-    debug.append(f"Toplam urun: {len(products)}")
-    with open("debug.txt", "w", encoding="utf-8") as f:
-        f.write("\n".join(debug) + "\n")
-    print("\n".join(debug))
+        if len(items) < PAGE_SIZE:
+            break
     return products
 
 
 def is_match(p: dict) -> bool:
-    name = p["name"].lower()
-    return p["price"] < MAX_PRICE and any(k in name for k in KEYWORDS)
+    t = p["title"].lower()
+    return p["price"] < MAX_PRICE and any(k in t for k in KEYWORDS)
 
 
-def notify(msg: str):
-    print(msg)
+def notify(text: str, image: str | None = None):
+    print(text)
     if not (TG_TOKEN and TG_CHAT):
         print("UYARI: TG_TOKEN / TG_CHAT tanimli degil")
         return
-    r = requests.post(
-        f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
-        data={"chat_id": TG_CHAT, "text": msg},
-        timeout=15,
-    )
+    base = f"https://api.telegram.org/bot{TG_TOKEN}"
+    if image:
+        r = requests.post(f"{base}/sendPhoto", data={"chat_id": TG_CHAT, "photo": image, "caption": text}, timeout=20)
+        if r.ok:
+            return
+    r = requests.post(f"{base}/sendMessage", data={"chat_id": TG_CHAT, "text": text}, timeout=20)
     if not r.ok:
         print("Telegram hatasi:", r.status_code, r.text)
 
 
+def fmt(p: dict, header: str) -> str:
+    price = f"{p['price']:.2f} TL"
+    if p["old_price"] > p["price"]:
+        price += f" (eski {p['old_price']:.2f})"
+    return f"{header}\n{p['title']}\n💰 {price} · stok {p['qty']}\n{p['url']}"
+
+
 def main():
     try:
-        with open(SEEN_FILE) as f:
-            seen = set(json.load(f))
+        with open(STATE_FILE) as f:
+            state = json.load(f)  # serial -> 1 (stokta) / 0 (tukendi)
     except (FileNotFoundError, json.JSONDecodeError):
-        seen = set()
-    first_run = not seen
+        state = {}
+    first_run = not state
 
     products = fetch_products()
     print(f"{len(products)} urun tarandi")
     if not products:
-        print("Hic urun bulunamadi - site yapisi degismis ya da erisim engellenmis olabilir")
+        print("Hic urun gelmedi - API degismis olabilir")
         sys.exit(1)
 
-    for serial, p in products.items():
-        if serial in seen:
-            continue
-        seen.add(serial)
-        if not first_run and is_match(p):
-            notify(f"🚗 YENİ: {p['name']}\n💰 {p['price']:.2f} TL\n{p['url']}")
+    for sid, p in products.items():
+        prev = state.get(sid)
+        now = 1 if p["in_stock"] else 0
+        if not first_run and is_match(p) and now == 1:
+            if prev is None:
+                notify(fmt(p, "🚗 YENİ ÜRÜN"), p["image"])
+            elif prev == 0:
+                notify(fmt(p, "🔁 TEKRAR STOKTA"), p["image"])
+        state[sid] = now
 
-    with open(SEEN_FILE, "w") as f:
-        json.dump(sorted(seen), f)
+    with open(STATE_FILE, "w") as f:
+        json.dump(dict(sorted(state.items())), f, indent=0)
+
+    lines = [f"{p['created']}  {'✔' if p['in_stock'] else '✘'}  {p['price']:>9.2f}  "
+             f"{'*' if is_match(p) else ' '} {p['title']}" for p in products.values()]
+    with open(CATALOG_FILE, "w", encoding="utf-8") as f:
+        f.write("# tarih  stok  fiyat  *=filtreye uyuyor  isim\n" + "\n".join(lines) + "\n")
 
     if first_run:
-        notify(f"✅ Toyzz izleyici kuruldu, {len(products)} ürün tarandı. Artık yeni gelenleri bildireceğim.")
+        m = sum(1 for p in products.values() if is_match(p))
+        notify(f"✅ Toyzz izleyici kuruldu. {len(products)} Hot Wheels ürünü tarandı, "
+               f"{m} tanesi filtrene uyuyor. Bundan sonra yeni gelen ve tekrar stoğa giren "
+               f"500₺ altı premium'ları buraya atacağım.")
 
 
 if __name__ == "__main__":

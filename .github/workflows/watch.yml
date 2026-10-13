@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # elle "Run workflow" ile test icin
   push:
     branches: [main]
-    paths-ignore: [seen.json, debug.txt, debug.html, probe.py, probe.txt, .github/workflows/probe.yml]
+    paths: [toyzz_watch.py, .github/workflows/watch.yml]
 
 permissions:
   contents: write
@@ -34,10 +34,9 @@ jobs:
           TG_CHAT: ${{ secrets.TG_CHAT }}
         run: python toyzz_watch.py
 
-      - name: seen.json kaydet
-        if: always()
+      - name: Durumu kaydet
         run: |
           git config user.name "toyzz-bot"
           git config user.email "toyzz-bot@users.noreply.github.com"
-          for f in seen.json debug.txt debug.html; do [ -f "$f" ] && git add "$f"; done; true
-          git diff --cached --quiet || (git commit -m "seen guncellendi" && git pull --rebase -q && git push)
+          git add seen.json catalog.txt
+          git diff --cached --quiet || (git commit -m "durum guncellendi" && git pull --rebase -q && git push)
