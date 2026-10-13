@@ -67,7 +67,7 @@ def notify(text: str, image: str | None = None):
     print(text)
     if not (TG_TOKEN and TG_CHAT):
         TG_FAILED = True
-        print("UYARI: TG_TOKEN / TG_CHAT tanimli degil")
+        log_tg(f"SECRET EKSIK: TG_TOKEN={'var' if TG_TOKEN else 'YOK'} TG_CHAT={'var' if TG_CHAT else 'YOK'}")
         return
     base = f"https://api.telegram.org/bot{TG_TOKEN}"
     if image:
@@ -77,7 +77,15 @@ def notify(text: str, image: str | None = None):
     r = requests.post(f"{base}/sendMessage", data={"chat_id": TG_CHAT, "text": text}, timeout=20)
     if not r.ok:
         TG_FAILED = True
-        print("Telegram hatasi:", r.status_code, r.text)
+        log_tg(f"TELEGRAM HATASI {r.status_code}: {r.text[:300]} | chat_len={len(TG_CHAT)} token_len={len(TG_TOKEN)}")
+    else:
+        log_tg("OK - mesaj gitti")
+
+
+def log_tg(msg: str):
+    print(msg)
+    with open("tg_status.txt", "w", encoding="utf-8") as f:
+        f.write(msg + "\n")
 
 
 def fmt(p: dict, header: str) -> str:
@@ -118,6 +126,9 @@ def main():
              f"{'*' if is_match(p) else ' '} {p['title']}" for p in products.values()]
     with open(CATALOG_FILE, "w", encoding="utf-8") as f:
         f.write("# tarih  stok  fiyat  *=filtreye uyuyor  isim\n" + "\n".join(lines) + "\n")
+
+    if os.getenv("TG_TEST"):
+        notify("🔔 Test mesajı: Toyzz izleyici çalışıyor.")
 
     if first_run:
         m = sum(1 for p in products.values() if is_match(p))
