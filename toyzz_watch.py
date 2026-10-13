@@ -19,8 +19,8 @@ MAX_PRICE = 500.0  # TL
 STATE_FILE = "seen.json"
 CATALOG_FILE = "catalog.txt"
 
-TG_TOKEN = os.getenv("TG_TOKEN")
-TG_CHAT = os.getenv("TG_CHAT")
+TG_TOKEN = "".join((os.getenv("TG_TOKEN") or "").split()).removeprefix("bot")
+TG_CHAT = "".join((os.getenv("TG_CHAT") or "").split())
 TG_FAILED = False
 
 HEADERS = {
