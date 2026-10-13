@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="googlebot" content="all" />
+        <meta
+            http-equiv="Cache-Control"
+            content="no-cache, no-store, must-revalidate, private"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta name="build-time" content="" />
+        <meta name="apple-itunes-app" content="app-id=1516486062">
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
+        <link
+            rel="icon"
+            sizes="196x196"
+            href="/assets/favicon/favicon-192.png"
+        />
+        <link
+            rel="icon"
+            sizes="160x160"
+            href="/assets/favicon/favicon-160.png"
+        />
+        <link rel="icon" sizes="96x96" href="/assets/favicon/favicon-96.png" />
+        <link rel="icon" sizes="64x64" href="/assets/favicon/favicon-64.png" />
+        <link rel="icon" sizes="32x32" href="/assets/favicon/favicon-32.png" />
+        <link rel="icon" sizes="16x16" href="/assets/favicon/favicon-16.png" />
+        <link rel="apple-touch-icon" href="/assets/favicon/favicon-57.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="/assets/favicon/favicon-114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="/assets/favicon/favicon-72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="/assets/favicon/favicon-144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="/assets/favicon/favicon-60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="/assets/favicon/favicon-120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="/assets/favicon/favicon-76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="/assets/favicon/favicon-152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/assets/favicon/favicon-180.png"
+        />
+        <meta name="msapplication-TileColor" content="#FFFFFF" />        <meta
+            name="msapplication-TileImage"
+            content="/assets/favicon/favicon-144.png"
+        />
+        <meta
+            name="msapplication-config"
+            content="/assets/favicon/browserconfig.xml"
+        />
+
+        <!-- Font Preload -->
+        <link
+            rel="preload"
+            href="/assets/fonts/Montserrat/montserrat-latin.woff2"
+            as="font"
+            type="font/woff2"
+            crossorigin="anonymous"
+        />
+
+        <title>Toyzz Shop</title>
+
+        <!-- SEGMENTIFY BEGIN -->
+        <link rel='dns-prefetch' href='//cdn.segmentify.com'>
+        <link rel='dns-prefetch' href='https://trapi.segmentify.com'> 
+
+        <script type='text/javascript'> 
+          (function(namespace) { 
+            window['SegmentifyTrackingObject'] = namespace; 
+            window[namespace] = window[namespace] || function () { 
+              (window[namespace].q = window[namespace].q || []) .push(arguments);
+            };
+            
+            window[namespace].config = {
+              'segmentifyApiUrl': 'https://per2.segmentify.com',
+              'domain': 'https://www.toyzzshop.com'
+            }; 
+          }) ("Segmentify");
+
+          Segmentify('apikey', '9fe8cd52-85b7-4b5d-b0f7-31b3f4d22569');
+        </script>
+        
+        <script src="//cdn.segmentify.com/9fe8cd52-85b7-4b5d-b0f7-31b3f4d22569/segmentify.js" charset="UTF-8"></script>
+        <!-- SEGMENTIFY END -->
+        <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+
+        <!-- User Data -->
+        <script>
+            (function() {
+                async function sha256(str) {
+                    if (!str) return '';
+                    const encoder = new TextEncoder();
+                    const data = encoder.encode(str);
+                    const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+                    return Array.from(new Uint8Array(hashBuffer))
+                        .map(b => b.toString(16).padStart(2, '0'))
+                        .join('');
+                }
+
+                async function sendUserDataToDataLayer() {
+                    try {
+                        const USER_DATA_SENT_KEY = 'toyzz_user_data_sent_early';
+                        const USER_DATA_LAST_SENT_KEY = 'toyzz_user_data_last_sent_early';
+                        
+                        const dataSent = sessionStorage.getItem(USER_DATA_SENT_KEY) === 'true';
+                        if (dataSent) {
+                            const hasUserData = window.dataLayer && window.dataLayer.some(item => item.event === 'user_data');
+                            if (hasUserData) {
+                                setTimeout(() => {
+                                    if (typeof window.loadGTM === 'function' && !window.gtmLoaded) {
+                                        window.loadGTM();
+                                    }
+                                }, 10);
+                                return;
+                            } else {
+                                sessionStorage.removeItem(USER_DATA_SENT_KEY);
+                                sessionStorage.removeItem(USER_DATA_LAST_SENT_KEY);
+                            }
+                        }
+
+                        window.dataLayer = window.dataLayer || [];
+                        
+                        const token = localStorage.getItem('_token');
+                        const isLoggedIn = !!token;
+                        
+                        let userData = {
+                            user_id: "",
+                            email_address: "",
+                            sha256_email_address: "",
+                            sha256_phone_number: "",
+                            user_transacted: false,
+                            transaction_count: 0,
+                            register_date: "",
+                            user_logged_in: isLoggedIn,
+                            user_type: isLoggedIn ? "registered" : "guest",
+                            user_lastsession_date: "",
+                            user_lastpurchase_date: "",
+                            opt_in_mail: "false",
+                            opt_in_sms: "false"
+                        };
+
+                        if (isLoggedIn) {
+                            try {
+                                const userDataStr = localStorage.getItem('_user');
+                                if (userDataStr) {
+                                    const user = JSON.parse(userDataStr);
+                                    
+                                    const hashedEmail = user?.userId || "";
+                                    const hashedPhone = user?.mobile_number ? await sha256(user?.mobile_number?.trim()) : "";
+                                    
+                                    userData = {
+                                        user_id: user?.userId || "",
+                                        email_address: user?.email || "",
+                                        sha256_email_address: hashedEmail,
+                                        sha256_phone_number: hashedPhone,
+                                        user_transacted: user?.user_transacted || false,
+                                        transaction_count: user?.transaction_count || 0,
+                                        register_date: user?.createdate ? user.createdate.split(' ')[0].split('-').reverse().join('.') : "",
+                                        user_logged_in: true,
+                                        user_type: "registered",
+                                        user_lastsession_date: user?.user_lastsession_date || "",
+                                        user_lastpurchase_date: user?.user_lastpurchase_date || "",
+                                        opt_in_mail: user?.is_email?.toString() || "false",
+                                        opt_in_sms: user?.is_sms?.toString() || "false"
+                                    };
+                                }
+                            } catch (e) {
+                                console.error(e);
+                            }
+                        }
+
+                        const userDataEvent = {
+                            event: "user_data",
+                            ...userData,
+                            timestamp: Date.now()
+                        };
+                        
+                        window.dataLayer.push(userDataEvent);
+
+                        const currentTime = Date.now();
+                        sessionStorage.setItem(USER_DATA_SENT_KEY, 'true');
+                        sessionStorage.setItem(USER_DATA_LAST_SENT_KEY, currentTime.toString());
+                        
+                        setTimeout(() => {
+                            if (typeof window.loadGTM === 'function') {
+                                window.loadGTM();
+                            }
+                        }, 10);
+
+                    } catch (error) {
+                        console.error(error);
+                        setTimeout(() => {
+                            if (typeof window.loadGTM === 'function' && !window.gtmLoaded) {
+                                window.loadGTM();
+                            }
+                        }, 100);
+                    }
+                }
+
+                sendUserDataToDataLayer();
+
+                let lastTokenState = !!localStorage.getItem('_token');
+                
+                function checkTokenChanges() {
+                    const currentTokenState = !!localStorage.getItem('_token');
+                    if (lastTokenState !== currentTokenState) {
+                        lastTokenState = currentTokenState;
+                        
+                        sessionStorage.removeItem('toyzz_user_data_sent_early');
+                        sessionStorage.removeItem('toyzz_user_data_last_sent_early');
+                        
+                        setTimeout(() => {
+                            sendUserDataToDataLayer();
+                        }, 50);
+                    }
+                }
+                
+                setInterval(checkTokenChanges, 1000);
+
+                let lastUrl = location.href;
+                const originalPushState = history.pushState;
+                const originalReplaceState = history.replaceState;
+                
+                function detectUrlChange() {
+                    if (location.href !== lastUrl) {
+                        lastUrl = location.href;
+                        
+                        sessionStorage.removeItem('toyzz_user_data_sent_early');
+                        sessionStorage.removeItem('toyzz_user_data_last_sent_early');
+                        
+                        setTimeout(() => {
+                            sendUserDataToDataLayer();
+                            
+                            setTimeout(() => {
+                                if (typeof window.loadGTM === 'function' && !window.gtmLoaded) {
+                                    window.loadGTM();
+                                }
+                            }, 10);
+                        }, 100);
+                    }
+                }
+                
+                history.pushState = function(...args) {
+                    originalPushState.apply(history, args);
+                    setTimeout(detectUrlChange, 0);
+                };
+                
+                history.replaceState = function(...args) {
+                    originalReplaceState.apply(history, args);
+                    setTimeout(detectUrlChange, 0);
+                };
+                
+                window.addEventListener('popstate', () => {
+                    setTimeout(detectUrlChange, 0);
+                });
+            })();
+        </script>
+        <!-- End User Data -->
+         
+        <!-- Google Tag Manager -->
+        <script>
+            window.loadGTM = function() {
+                if (window.gtmLoaded) return;
+                
+                (function (w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({
+                        "gtm.start": new Date().getTime(),
+                        event: "gtm.js",
+                    });
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s),
+                        dl = l != "dataLayer" ? "&l=" + l : "";
+                    j.async = true;
+                    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                    f.parentNode.insertBefore(j, f);
+                    
+                    window.gtmLoaded = true;
+                })(window, document, "script", "dataLayer", "GTM-NSW86HV");
+            };
+        </script>
+
+        <!-- End Google Tag Manager -->
+      <script type="module" crossorigin src="/assets/index-HOo-nmsx.js"></script>
+      <link rel="stylesheet" crossorigin href="/assets/index-DC-3_ypV.css">
+    </head>
+    <body>
+        <div id="root"></div>
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+                src="https://www.googletagmanager.com/ns.html?id=GTM-NSW86HV"
+                height="0"
+                width="0"
+                style="display: none; visibility: hidden"
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    </body>
+</html>

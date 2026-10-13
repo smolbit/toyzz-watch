@@ -1,0 +1,7 @@
+https://www.toyzzshop.com/karakter/hot-wheels/38
+  status=200 len=13914 title='Toyzz Shop'
+  serial= sayisi=0 TL sayisi=0
+https://www.toyzzshop.com/karakter/hot-wheels/38?q=page/2
+  status=200 len=13914 title='Toyzz Shop'
+  serial= sayisi=0 TL sayisi=0
+Toplam urun: 0
