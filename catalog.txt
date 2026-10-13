@@ -143,7 +143,6 @@
 2022-02-15 15:17  ✔    1999.99    Hot Wheels Çift Çemberde Depar Pist Seti GFH85
 2022-02-15 15:17  ✔    1999.99    Hot Wheels Çok Çemberli Yarış HDR83
 2022-02-15 15:17  ✔    1599.99    Hot Wheels Track Builder Unlimited Benzin Bidonu Akrobasi Seti HDX78
-2022-01-31 08:52  ✔     799.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - 68-Yeşil
 2022-01-31 08:52  ✔     799.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - Hmm54 Gunkster
 2022-01-31 08:52  ✔     799.99    Hot Wheels Fırlatıcı ve Taşıyıcı Ejderha GTK42
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Köpekbalığı
@@ -239,6 +238,7 @@
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jmk96 Hw Tiger Shark
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jml00 Wreckin' Wolf
 2026-04-24 09:13  ✘    1769.99    Hot Wheels Bingit İlk Motorum
+2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hpr89 Porsche 911 Gt3
 2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hwh34 Porsche 914 Safari
 2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hwh49 2004 Mazda Rx-8 Custom
 2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Jcl99 1966 Ford Bronco
