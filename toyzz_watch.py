@@ -37,10 +37,24 @@ def parse_price(s: str) -> float:
 
 def fetch_products() -> dict:
     products = {}
-    for url in URLS:
-        r = requests.get(url, headers=HEADERS, timeout=30)
-        r.raise_for_status()
+    debug = []
+    for i, url in enumerate(URLS):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+        except Exception as e:
+            debug.append(f"{url}\n  ISTEK HATASI: {e!r}")
+            continue
         soup = BeautifulSoup(r.text, "html.parser")
+        title = soup.title.get_text(strip=True) if soup.title else "-"
+        debug.append(
+            f"{url}\n  status={r.status_code} len={len(r.text)} title={title!r}\n"
+            f"  serial= sayisi={r.text.count('serial=')} TL sayisi={r.text.count(' TL')}"
+        )
+        if i == 0:
+            with open("debug.html", "w", encoding="utf-8") as f:
+                f.write(r.text)
+        if not r.ok:
+            continue
         for a in soup.select('a[href*="serial="]'):
             m = re.search(r"serial=(\d+)", a["href"])
             if not m:
@@ -54,6 +68,10 @@ def fetch_products() -> dict:
                 "price": min(prices),
                 "url": urljoin("https://www.toyzzshop.com", a["href"]),
             }
+    debug.append(f"Toplam urun: {len(products)}")
+    with open("debug.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(debug) + "\n")
+    print("\n".join(debug))
     return products
 
 
