@@ -4,7 +4,6 @@
 2026-09-16 14:03  ✔    1299.00    Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 - Wreckin’ Wolf
 2026-09-16 14:03  ✔    1299.00    Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 - Bone Shaker
 2026-09-16 14:03  ✔    3999.00    Hot Wheels Akrobasi Pistleri Hiperküre Turbo Çarpışma Pisti JMG48
-2026-08-19 09:58  ✔    1399.00    1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Araba JHW58
 2026-08-19 09:58  ✔    2799.00    Hot Wheels City Mega Loop Oto Yıkama Pist Seti JHL97
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mclaren Formula 1 Team
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Kick Sauber F1 Team
@@ -47,6 +46,7 @@
 2026-01-23 08:38  ✔     199.99    Hot Wheels Şişme Kolluk 46091-B
 2026-01-23 08:33  ✔     199.99    Hot Wheels Şişme Can Simidi 50 cm
 2026-01-19 12:08  ✔    1499.99    Hot Wheels Speed Serisi Custom '90 Honda Civic EF Araba Yapım Seti 248 Parça JHF62
+2026-01-15 14:08  ✔     129.99    Cool Things Hot Wheels GT K-Cars Sürpriz Anahtarlık Paketi 
 2026-01-05 14:28  ✔    1799.99    Hot Wheels City Süper İtfaiye İstasyonu Oyun Seti JHL95
 2025-12-31 10:18  ✔     849.99    Hot Wheels Stunt Trucks Akrobatik Yarış Pisti Oyun Seti JHK76 - Slam Jump Challenge Jhk78
 2025-12-31 10:18  ✔     849.99    Hot Wheels Stunt Trucks Akrobatik Yarış Pisti Oyun Seti JHK76 - Loop Flag Finish Jhk77
@@ -209,6 +209,7 @@
 2026-08-25 13:53  ✘     699.50    Hot Wheels Boyama Kitabı
 2026-08-24 12:23  ✘     380.00    Hot Wheels Parıltılı Tatil Çantam Etkinlik ve Boyama Kitabı
 2026-08-24 11:48  ✘    1750.00    Hot Wheels Kulaktan Kulağa Öyküler
+2026-08-19 09:58  ✘    1399.00    1:24 Hot Wheels Monster Trucks Barbie Uzaktan Kumandalı Araba JHW58
 2026-08-19 09:58  ✘     999.00    1:64 Hot Wheels Legends Honda Civic Type R ve Kousoku Team Transport Araçlar JMN15
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mercedes-Amg Petronas Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Visa Cash App Racing Bulls Formula One Team
