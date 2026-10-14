@@ -5,6 +5,7 @@ Toyzz Shop Hot Wheels izleyici (GitHub Actions)
   kelime gecen ve MAX_PRICE altindaki urunleri Telegram'a yollar.
 """
 import json
+import re
 import os
 import sys
 from datetime import datetime, timedelta, timezone
@@ -58,9 +59,23 @@ def fetch_products() -> dict:
     return products
 
 
-def is_match(p: dict) -> bool:
+# Premium olmasa da takip edilen markalar/modeller (regular dahil)
+BRAND_RE = re.compile(r"\b(bmw|mercedes|benz|amg|ferrari|gt-?r|skyline)\b", re.I)
+
+
+def match_reason(p: dict) -> str | None:
+    if p["price"] >= MAX_PRICE:
+        return None
     t = p["title"].lower()
-    return p["price"] < MAX_PRICE and any(k in t for k in KEYWORDS)
+    if any(k in t for k in KEYWORDS):
+        return "PREMIUM"
+    if BRAND_RE.search(t):
+        return "MARKA"
+    return None
+
+
+def is_match(p: dict) -> bool:
+    return match_reason(p) is not None
 
 
 def notify(text: str, image: str | None = None):
@@ -119,9 +134,9 @@ def main():
         now = 1 if p["in_stock"] else 0
         if not first_run and is_match(p) and now == 1:
             if prev is None:
-                notify(fmt(p, "🚗 YENİ ÜRÜN"), p["image"])
+                notify(fmt(p, f"🚗 YENİ ÜRÜN ({match_reason(p)})"), p["image"])
             elif prev == 0:
-                notify(fmt(p, "🔁 TEKRAR STOKTA"), p["image"])
+                notify(fmt(p, f"🔁 TEKRAR STOKTA ({match_reason(p)})"), p["image"])
         state[sid] = now
 
     with open(STATE_FILE, "w") as f:
