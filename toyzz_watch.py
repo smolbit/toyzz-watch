@@ -4,6 +4,7 @@ Toyzz Shop Hot Wheels izleyici (GitHub Actions)
 - Yeni eklenen VEYA tukendikten sonra tekrar stoga giren, isminde anahtar
   kelime gecen ve MAX_PRICE altindaki urunleri Telegram'a yollar.
 """
+import html
 import json
 import re
 import os
@@ -78,7 +79,7 @@ def is_match(p: dict) -> bool:
     return match_reason(p) is not None
 
 
-def notify(text: str, image: str | None = None, silent: bool = False):
+def notify(text: str, image: str | None = None, silent: bool = False, as_html: bool = False):
     global TG_FAILED
     print(text)
     if not (TG_TOKEN and TG_CHAT):
@@ -90,7 +91,10 @@ def notify(text: str, image: str | None = None, silent: bool = False):
         r = requests.post(f"{base}/sendPhoto", data={"chat_id": TG_CHAT, "photo": image, "caption": text, "disable_notification": silent}, timeout=20)
         if r.ok:
             return
-    r = requests.post(f"{base}/sendMessage", data={"chat_id": TG_CHAT, "text": text, "disable_notification": silent}, timeout=20)
+    data = {"chat_id": TG_CHAT, "text": text, "disable_notification": silent}
+    if as_html:
+        data.update(parse_mode="HTML", disable_web_page_preview=True)
+    r = requests.post(f"{base}/sendMessage", data=data, timeout=20)
     if not r.ok:
         TG_FAILED = True
         log_tg(f"TELEGRAM HATASI {r.status_code}: {r.text[:300]} | chat_len={len(TG_CHAT)} token_len={len(TG_TOKEN)}")
@@ -166,13 +170,14 @@ def main():
              f"Yeni ürün: {new_any} · Tekrar stoğa giren: {back_any}",
              f"Filtrene uyan bildirim: {alerts}"]
         if sold_out:
-            r.append("Tükenen (filtrendeki): " + ", ".join(t[-40:] for t in sold_out[:5]))
+            r.append("Tükenen (filtrendeki): " + html.escape(", ".join(t[-40:] for t in sold_out[:5])))
         r.append(f"\nŞu an stokta, filtrene uyan {len(matches)} ürün:")
         for p in sorted(matches, key=lambda x: x["price"])[:10]:
-            r.append(f"• {p['price']:.0f}₺ {p['title'].split(' - ')[-1][:45]}")
+            name = html.escape(p['title'].split(' - ')[-1][:45])
+            r.append(f"• {p['price']:.0f}₺ <a href=\"{html.escape(p['url'])}\">{name}</a>")
         if len(matches) > 10:
             r.append(f"… +{len(matches) - 10} ürün daha")
-        notify("\n".join(r), silent=True)
+        notify("\n".join(r), silent=True, as_html=True)
 
     if first_run:
         m = sum(1 for p in products.values() if is_match(p))
