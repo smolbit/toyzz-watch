@@ -254,15 +254,15 @@
 2026-01-26 10:03  ✘     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky52 Nissan Fairlady Z
 2026-01-26 10:03  ✘     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky50 69 Copo Camaro
 2026-01-26 10:03  ✘     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky65 '67 Ford Bronco
-2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Nissan Skyline Gt-R (Bnr32) Jkl03
+2026-01-26 10:03  ✘     399.99  * 1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Nissan Skyline Gt-R (Bnr32) Jkl03
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Porsche 934.5 Jkl09
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Toyota Supra Jkl10
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Donut Drifter Jkl12
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - El Segundo Coupe Jkl13
-2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - 2024 Bmw M3 Wagon/Remorque Jkl04
+2026-01-26 10:03  ✘     399.99  * 1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - 2024 Bmw M3 Wagon/Remorque Jkl04
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - 1992 Ford Mustang Foxbody Jkl05
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Lamborghini Sian Fkp 37 Jkl07
-2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - 1991 Mercedes-Benz 500 E Jkl08
+2026-01-26 10:03  ✘     399.99  * 1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - 1991 Mercedes-Benz 500 E Jkl08
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Mod Rod Jkl11
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Count Muscula Jkl14
 2026-01-19 12:08  ✘    3399.99    Hot Wheels Elite Serisi '15 Audi R8 LMS Yapım Seti 820 Parça JFT18
@@ -297,11 +297,11 @@
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby71 Custom Otto
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby73 Honda Civic Si
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby75 Porsche 917 Lh
-2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby76 Bmw M1 Procar
+2025-04-22 09:13  ✘     179.99  * 1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby76 Bmw M1 Procar
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx46 Volkswagen T1 Panel Bus
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx55 71 Datsun 510
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx45 67 Ford Gt40 Mk.Iv
-2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx42 Nissan Skyline Rs (Kdr30)
+2025-04-22 09:13  ✘     179.99  * 1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx42 Nissan Skyline Rs (Kdr30)
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx43 Porsche 917 Lh
 2025-03-26 08:43  ✘     799.00    Gokidy Katlanabilir Çocuk Kamp Sandalyesi - Açık Pembe
 2025-03-26 08:43  ✘     799.00    Gokidy Katlanabilir Çocuk Kamp Sandalyesi - Koyu Pembe
