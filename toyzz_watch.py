@@ -78,7 +78,7 @@ def is_match(p: dict) -> bool:
     return match_reason(p) is not None
 
 
-def notify(text: str, image: str | None = None):
+def notify(text: str, image: str | None = None, silent: bool = False):
     global TG_FAILED
     print(text)
     if not (TG_TOKEN and TG_CHAT):
@@ -87,10 +87,10 @@ def notify(text: str, image: str | None = None):
         return
     base = f"https://api.telegram.org/bot{TG_TOKEN}"
     if image:
-        r = requests.post(f"{base}/sendPhoto", data={"chat_id": TG_CHAT, "photo": image, "caption": text}, timeout=20)
+        r = requests.post(f"{base}/sendPhoto", data={"chat_id": TG_CHAT, "photo": image, "caption": text, "disable_notification": silent}, timeout=20)
         if r.ok:
             return
-    r = requests.post(f"{base}/sendMessage", data={"chat_id": TG_CHAT, "text": text}, timeout=20)
+    r = requests.post(f"{base}/sendMessage", data={"chat_id": TG_CHAT, "text": text, "disable_notification": silent}, timeout=20)
     if not r.ok:
         TG_FAILED = True
         log_tg(f"TELEGRAM HATASI {r.status_code}: {r.text[:300]} | chat_len={len(TG_CHAT)} token_len={len(TG_TOKEN)}")
@@ -129,14 +129,25 @@ def main():
         print("Hic urun gelmedi - API degismis olabilir")
         sys.exit(1)
 
+    alerts, new_any, sold_out, back_any = 0, 0, [], 0
     for sid, p in products.items():
         prev = state.get(sid)
         now = 1 if p["in_stock"] else 0
+        if not first_run:
+            if prev is None:
+                new_any += 1
+            elif prev == 1 and now == 0:
+                if is_match(p):
+                    sold_out.append(p["title"])
+            elif prev == 0 and now == 1:
+                back_any += 1
         if not first_run and is_match(p) and now == 1:
             if prev is None:
                 notify(fmt(p, f"🚗 YENİ ÜRÜN ({match_reason(p)})"), p["image"])
+                alerts += 1
             elif prev == 0:
                 notify(fmt(p, f"🔁 TEKRAR STOKTA ({match_reason(p)})"), p["image"])
+                alerts += 1
         state[sid] = now
 
     with open(STATE_FILE, "w") as f:
@@ -147,22 +158,21 @@ def main():
     with open(CATALOG_FILE, "w", encoding="utf-8") as f:
         f.write("# tarih  stok  fiyat  *=filtreye uyuyor  isim\n" + "\n".join(lines) + "\n")
 
-    in_stock_matches = sum(1 for p in products.values() if is_match(p) and p["in_stock"])
-    if os.getenv("TG_TEST"):
-        notify(f"🔔 Test: Toyzz izleyici çalışıyor. {len(products)} ürün tarandı, "
-               f"filtrene uyup stokta olan {in_stock_matches} ürün var.")
-
-    # Her sabah 09:00'dan sonraki ilk taramada "hala calisiyorum" mesaji
-    today = now_tr().strftime("%Y-%m-%d")
-    try:
-        last = open("heartbeat.txt").read().strip()
-    except FileNotFoundError:
-        last = ""
-    if now_tr().hour >= 9 and last != today and not first_run:
-        notify(f"☀️ Günaydın, izleyici çalışıyor. {len(products)} Hot Wheels ürünü takipte, "
-               f"filtrene uyup stokta olan {in_stock_matches} ürün var.")
-        with open("heartbeat.txt", "w") as f:
-            f.write(today + "\n")
+    matches = [p for p in products.values() if is_match(p) and p["in_stock"]]
+    in_stock_total = sum(1 for p in products.values() if p["in_stock"])
+    if not first_run:
+        r = [f"📋 Tarama raporu · {now_tr():%H:%M}",
+             f"Taranan: {len(products)} ürün ({in_stock_total} stokta)",
+             f"Yeni ürün: {new_any} · Tekrar stoğa giren: {back_any}",
+             f"Filtrene uyan bildirim: {alerts}"]
+        if sold_out:
+            r.append("Tükenen (filtrendeki): " + ", ".join(t[-40:] for t in sold_out[:5]))
+        r.append(f"\nŞu an stokta, filtrene uyan {len(matches)} ürün:")
+        for p in sorted(matches, key=lambda x: x["price"])[:10]:
+            r.append(f"• {p['price']:.0f}₺ {p['title'].split(' - ')[-1][:45]}")
+        if len(matches) > 10:
+            r.append(f"… +{len(matches) - 10} ürün daha")
+        notify("\n".join(r), silent=True)
 
     if first_run:
         m = sum(1 for p in products.values() if is_match(p))

@@ -36,14 +36,14 @@ jobs:
         env:
           TG_TOKEN: ${{ secrets.TG_TOKEN }}
           TG_CHAT: ${{ secrets.TG_CHAT }}
-          TG_TEST: ${{ github.event_name == 'push' && '1' || '' }}
+
         run: python toyzz_watch.py || echo "tarama hatasi"
 
       - name: Durumu kaydet
         run: |
           git config user.name "toyzz-bot"
           git config user.email "toyzz-bot@users.noreply.github.com"
-          for f in seen.json catalog.txt tg_status.txt heartbeat.txt; do [ -f "$f" ] && git add "$f"; done
+          for f in seen.json catalog.txt tg_status.txt; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet || (git commit -q -m "durum guncellendi" && git pull -q --rebase && git push -q) || true
 
       - name: 30 dk bekle
