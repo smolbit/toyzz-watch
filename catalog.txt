@@ -8,6 +8,7 @@
 2026-08-19 09:58  ✔    2799.00    Hot Wheels City Mega Loop Oto Yıkama Pist Seti JHL97
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mclaren Formula 1 Team
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Kick Sauber F1 Team
+2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Oracle Red Bull Racing
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Atlassian Williams Racing
 2026-08-06 14:08  ✔    5999.99    1:15 Hot Wheels Monster Trucks Mutant Great Bite R/C Uzaktan Kumandalı Araba JMM76
 2026-07-29 08:48  ✔    4499.99    Hot Wheels Monster Trucks Mutant Kaosu Canavarla Mücadele JMK90
@@ -108,6 +109,7 @@
 2024-03-04 12:33  ✔    1999.99    Hot Wheels Monster Trucks Arenada Rhinomite Mücadelesi Oyun Seti HTP18
 2024-02-23 15:13  ✔     799.00    Hot Wheels Ev Oyun Çadırı 
 2024-01-25 11:23  ✔     299.99  * Hot Wheels Pop Culture Die Cast Tekli Arabalar HXD63 - Hvj41 Hiway Hauler
+2023-12-20 15:38  ✔    2099.99    Hot Wheels Neon Yarışlar Çoklu Yarış Heyecanı Pist Seti HPC07
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Tiger Shark
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Race Ace
 2023-10-31 14:08  ✔    1499.99    Hot Wheels Neon Yarışlar Çifte Çemberde Yarış Seti HPC05
@@ -213,7 +215,6 @@
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mercedes-Amg Petronas Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Visa Cash App Racing Bulls Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Moneygram Haas F1 Team
-2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Oracle Red Bull Racing
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Bwt Alpine Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Scuderia Ferrari Hp
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Aston Martin Aramco Formula One Team
@@ -378,7 +379,6 @@
 2024-02-20 15:28  ✘     699.99    Hot Wheels RaceVerse 2'li Paket HRT55 - Wonder Woman Ve Batman
 2024-02-20 15:28  ✘     699.99    Hot Wheels RaceVerse 2'li Paket HRT55 - Hrt88 Kylo Ren Ve Rey
 2024-02-20 15:28  ✘     699.99    Hot Wheels RaceVerse 2'li Paket HRT55 - Hrt93 Sulley Ve Mike Wazowski
-2023-12-20 15:38  ✘    2099.99    Hot Wheels Neon Yarışlar Çoklu Yarış Heyecanı Pist Seti HPC07
 2023-11-28 11:13  ✘    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Bone Shaker
 2023-11-28 11:13  ✘    2369.00    Hot Wheels Monster Trucks Bone Shaker Uzaktan Kumandalı Araba
 2023-11-28 11:13  ✘    2369.00    Hot Wheels Monster Trucks Mega Wrex Uzaktan Kumandalı Araba
@@ -472,7 +472,7 @@
 2021-02-19 09:38  ✘     749.99    Mega Construx Hot Wheels Monster Trucks Serisi GVM14 - Bone Shaker
 2021-02-19 09:38  ✘     749.99    Mega Construx Hot Wheels Monster Trucks Serisi GVM14 - Mega Wrex
 2021-01-18 11:08  ✘    7999.99    Hot Wheels Robotik T-Rex Ultimate Garaj GJL14
-2020-12-07 14:53  ✘     159.99    24 + 35 + 54 + 70 Parça Puzzle : Hot Wheels
+2020-12-07 14:53  ✘     179.99    24 + 35 + 54 + 70 Parça Puzzle : Hot Wheels
 2020-08-04 09:38  ✘    1799.99    Hot Wheels Maceraya Başlangıç Garajı 4 Katlı GNL70
 2020-03-25 14:58  ✘      42.99    Hot Wheels Yazı Tahtası 
 2020-01-09 14:28  ✘    2599.99    Hot Wheels Dönen Tekerlek Macerası Yarış Seti GJM77
