@@ -238,6 +238,7 @@
 2026-07-10 09:13  ✘     170.00    Hot Wheels Dev Çıkartmalı Boyama Kitabı
 2026-07-09 11:13  ✘     150.00    Hot Wheels Bol Bol Boya Bol Bol Yapıştır Boyama Kitabı
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jmk93 Bigfoot
+2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jmk96 Hw Tiger Shark
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jml00 Wreckin' Wolf
 2026-04-24 09:13  ✘    1769.99    Hot Wheels Bingit İlk Motorum
 2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hpr89 Porsche 911 Gt3
