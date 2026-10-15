@@ -45,7 +45,6 @@
 2026-01-26 10:03  ✔     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky60 Custom/Personnalise
 2026-01-23 08:38  ✔     199.99    Hot Wheels Şişme Kolluk 46091-B
 2026-01-23 08:33  ✔     199.99    Hot Wheels Şişme Can Simidi 50 cm
-2026-01-19 12:08  ✔    1499.99    Hot Wheels Speed Serisi Custom '90 Honda Civic EF Araba Yapım Seti 248 Parça JHF62
 2026-01-15 14:08  ✔     129.99    Cool Things Hot Wheels GT K-Cars Sürpriz Anahtarlık Paketi 
 2026-01-05 14:28  ✔    1799.99    Hot Wheels City Süper İtfaiye İstasyonu Oyun Seti JHL95
 2025-12-31 10:18  ✔     849.99    Hot Wheels Stunt Trucks Akrobatik Yarış Pisti Oyun Seti JHK76 - Slam Jump Challenge Jhk78
@@ -200,6 +199,8 @@
 2013-09-30 10:16  ✔     349.99    Hot  Wheels 3'lü Araba Seti  - Farklılık Gösterebilir
 2013-04-19 12:52  ✔    1199.99    Hot  Wheels 10'lu Araba  - Karışık
 2011-07-22 13:08  ✔     699.99    Hot  Wheels 5'li Araba Seti  - Jkg06 Cyber Noir
+2026-10-15 08:38  ✘    1499.99    Mattel Brick Shop Hot Wheels '20 Corvette JKR19
+2026-10-15 08:38  ✘    1499.99    Mattel Brick Shop Hot Wheels Lamborghini Huracan Sterrato JHG75
 2026-10-07 09:08  ✘     219.99    Hot Wheels Boyama ve Aktivite Seti 
 2026-10-07 09:08  ✘    1329.99    Hot Wheels Monster Trucks Bone Shaker Monster Aktivite Seti 
 2026-09-28 13:43  ✘     119.99    Hot Wheels Koleksiyon Kartı 6’lı Paket 
@@ -268,6 +269,7 @@
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Mod Rod Jkl11
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Count Muscula Jkl14
 2026-01-19 12:08  ✘    3399.99    Hot Wheels Elite Serisi '15 Audi R8 LMS Yapım Seti 820 Parça JFT18
+2026-01-19 12:08  ✘    1499.99    Hot Wheels Speed Serisi Custom '90 Honda Civic EF Araba Yapım Seti 248 Parça JHF62
 2026-01-19 12:08  ✘    1499.99    Hot Wheels Speed Serisi ‘07 Honda S2000 Araba Yapım Seti 257 Parça JFR88
 2025-12-31 10:18  ✘    1299.99    2in1 Hot Wheels Dönüşebilen Garaj Oyun Seti JHL94
 2025-12-31 10:13  ✘     699.99    Hot Wheels Let s Race Activate Tekli Arabalar JJX15  - Jjx20 Gt-Scorcher
