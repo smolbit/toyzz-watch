@@ -165,7 +165,6 @@
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj91 Gunkster
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Tuk'N Roll
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcd78 Meyers Manx
-2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy30 Helichopper
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy48 Soupreme Slammer
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy63 Hw 5 Alarm
@@ -287,6 +286,7 @@
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd80 Mercedes-Amg Petronas Formula One Team (#63)
 2025-09-24 09:18  ✘    4499.99    Hot Wheels City Mega Garaj Oyun Seti JBM74
 2025-09-01 13:58  ✘     299.99    Hot Wheels Kırtasiye Seti HW-2986
+2025-09-01 11:28  ✘      99.99    Hot Wheels Sticker Paketi HW4673
 2025-09-01 11:28  ✘     199.99    Hot Wheels Kırtasiye Seti HW-7466
 2025-08-29 14:18  ✘    1499.99    1:64 Hot Wheels Silver Serisi Euro Style 6’lı Araba Seti JBY79
 2025-08-07 12:14  ✘     549.99    Hot Wheels Araba Desenli Mavi Kalem Kutusu 2598
@@ -504,6 +504,7 @@
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Jmt10 Bigfoot 4x4x4
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Donkey Kong
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf11 Yeşil Steer Clear
+2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy43 Great Bite
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj93 Bone Shaker
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy55 Mega-Wrex
