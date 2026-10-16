@@ -16,7 +16,6 @@
 2026-07-17 08:48  ✔    2499.99    Hot Wheels Okul Çantası 3530
 2026-07-07 13:53  ✔    6319.00    1:10 Hot Wheels Işıklı USB Şarjlı Uzaktan Kumandalı Araba
 2026-07-06 13:48  ✔     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jmk98 Hw 5-Alarm
-2026-07-06 13:48  ✔     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jml01 Gunkster
 2026-06-25 14:48  ✔    2499.99    Hot Wheels Neon Yarışçılar Kasırga Çarpışması Pist Seti JMG50
 2026-06-25 14:43  ✔    1199.99    1:64 Hot Wheels Silver Series Japon Temalı 6’lı Araba Seti JLB23
 2026-05-13 12:33  ✔    1399.00    Hot Wheels Silver Serisi Batman Temalı Die Cast Arabalar 5’li Paket
@@ -242,6 +241,7 @@
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jmk93 Bigfoot
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jmk96 Hw Tiger Shark
 2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jml00 Wreckin' Wolf
+2026-07-06 13:48  ✘     549.99    Hot Wheels Monster Trucks Atak Arabalar Jmk92 - Jml01 Gunkster
 2026-04-24 09:13  ✘    1769.99    Hot Wheels Bingit İlk Motorum
 2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hpr89 Porsche 911 Gt3
 2026-04-13 13:48  ✘     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Hwh34 Porsche 914 Safari
