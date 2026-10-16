@@ -511,7 +511,6 @@
 2019-04-16 14:15  ✘     899.99    Hot Wheels Şampiyonluk Parkuru Yarış Pisti GBF81 - Dragstrıp Champion
 2019-04-16 14:15  ✘     899.99    Hot Wheels Şampiyonluk Parkuru Yarış Pisti GBF81 - Hill Climb Champion
 2019-04-16 14:15  ✘     899.99    Hot Wheels Şampiyonluk Parkuru Yarış Pisti GBF81 - Rapid Raceway Champion
-2019-04-16 14:15  ✘     899.99    Hot Wheels Şampiyonluk Parkuru Yarış Pisti GBF81 - Loop Stunt Champion
 2018-11-21 12:10  ✘    1929.00    Hot Wheels Rock Monster Araba - Kırmızı
 2018-11-21 12:10  ✘    1929.00    Hot Wheels Rock Monster Araba - Yeşil
 2018-10-12 18:04  ✘    4599.99    Hot Wheels Renk Değiştiren Arabalar Timsah Oyun Seti FTB67
