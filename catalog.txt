@@ -287,7 +287,6 @@
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd80 Mercedes-Amg Petronas Formula One Team (#63)
 2025-09-24 09:18  ✘    4499.99    Hot Wheels City Mega Garaj Oyun Seti JBM74
 2025-09-01 13:58  ✘     299.99    Hot Wheels Kırtasiye Seti HW-2986
-2025-09-01 11:28  ✘      99.99    Hot Wheels Sticker Paketi HW4673
 2025-09-01 11:28  ✘     199.99    Hot Wheels Kırtasiye Seti HW-7466
 2025-08-29 14:18  ✘    1499.99    1:64 Hot Wheels Silver Serisi Euro Style 6’lı Araba Seti JBY79
 2025-08-07 12:14  ✘     549.99    Hot Wheels Araba Desenli Mavi Kalem Kutusu 2598
@@ -479,6 +478,7 @@
 2020-08-04 09:38  ✘    1799.99    Hot Wheels Maceraya Başlangıç Garajı 4 Katlı GNL70
 2020-03-25 14:58  ✘      42.99    Hot Wheels Yazı Tahtası 
 2020-01-09 14:28  ✘    2599.99    Hot Wheels Dönen Tekerlek Macerası Yarış Seti GJM77
+2019-11-13 18:33  ✘    2349.00    Hot Wheels Sesli ve Işıklı Monster Action Köpek Balığı Araba 22 cm
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Bone Shaker
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Mega-Wrex
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Twin Mill
