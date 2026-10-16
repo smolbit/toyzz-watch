@@ -165,7 +165,7 @@
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj91 Gunkster
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Tuk'N Roll
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcd78 Meyers Manx
-2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
+2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy30 Helichopper
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy48 Soupreme Slammer
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy63 Hw 5 Alarm
@@ -479,7 +479,6 @@
 2020-08-04 09:38  ✘    1799.99    Hot Wheels Maceraya Başlangıç Garajı 4 Katlı GNL70
 2020-03-25 14:58  ✘      42.99    Hot Wheels Yazı Tahtası 
 2020-01-09 14:28  ✘    2599.99    Hot Wheels Dönen Tekerlek Macerası Yarış Seti GJM77
-2019-11-13 18:33  ✘    2349.00    Hot Wheels Sesli ve Işıklı Monster Action Köpek Balığı Araba 22 cm
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Bone Shaker
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Mega-Wrex
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Twin Mill
