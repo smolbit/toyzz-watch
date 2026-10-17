@@ -67,6 +67,7 @@
 2025-08-29 14:18  ✔    2799.99    Hot Wheels Ultimate Çift Ejderha Taşıyıcı Dev Tır JBM72
 2025-07-30 13:33  ✔    1199.99    Hot Wheels Monster Trucks Köpekbalığı Oyun Seti JFR08
 2025-07-30 13:33  ✔     649.99    HW Track Creator Araba ve Pist Başlangıç Paketi JDW43
+2025-07-30 13:28  ✔      99.99    HW Track Creator Düz Pist Paketi JDW41
 2025-07-30 13:28  ✔    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jhw42 Horizon Hauler'Li Set
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby69 Fiat 500 Topolino (1936)
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby71 Custom Otto
@@ -106,7 +107,6 @@
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Tiger Shark
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Race Ace
 2023-10-31 14:08  ✔     749.99    Hot Wheels Neon Yarışlar Çifte Çemberde Yarış Seti HPC05
-2023-09-20 14:48  ✔     849.99    Hot Wheels Ultra Hots Çılgın Çember Yarışı Seti HPX93
 2023-08-18 14:23  ✔    3699.99    Hot Wheels City Ultimate T-Rex Tır HNG50
 2023-08-18 14:23  ✔     279.99    Hot Wheels RacerVerse Tekli Arabalar HKB86 - Hrt35 Velociraptor Blue
 2023-05-10 10:18  ✔     109.99    Hot Wheels Skate Parmak Kaykay ve Ayakkabı Paketleri HGT46 - Double-Headed Demon
@@ -291,7 +291,6 @@
 2025-08-07 12:13  ✘    1799.99    Hot Wheels Araba Desenli Anaokulu Çantası 2593
 2025-07-30 13:33  ✘    1899.99    Hot Wheels Hot Ones Turbo Oyun Parkuru JFH35
 2025-07-30 13:33  ✘     899.99    Hot Wheels Hot Ones Otoyol Oyun Seti JFD11
-2025-07-30 13:28  ✘      99.99    HW Track Creator Düz Pist Paketi JDW41
 2025-07-30 13:28  ✘    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jbm08 Sakura Sprinter'Lı Set
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby70 Volkswagen T2 Pickup
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby73 Honda Civic Si
@@ -383,6 +382,7 @@
 2023-11-28 11:13  ✘    2369.00    Hot Wheels Monster Trucks Mega Wrex Uzaktan Kumandalı Araba
 2023-11-28 11:13  ✘    1799.00    Hot Wheels Flip Racer Uzaktan Kumandalı Araba
 2023-09-20 14:48  ✘    3699.99    Hot Wheels Monster Trucks Arena'da Şampiyonluk Mücadelesi Oyun Seti HPN71
+2023-09-20 14:48  ✘     849.99    Hot Wheels Ultra Hots Çılgın Çember Yarışı Seti HPX93
 2023-08-18 14:23  ✘    2099.99    Hot Wheels Monster Trucks Arena Mücadelesi Pist Seti HPN73
 2023-08-18 14:23  ✘    4499.99    Hot Wheels RacerVerse Marvel 2 Araçlı Pist Seti HPL34
 2023-08-18 14:23  ✘     169.99    Hot Wheels Disney 100 Temalı Arabalar HMV75 - Super Gnat
