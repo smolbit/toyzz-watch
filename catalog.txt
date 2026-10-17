@@ -66,7 +66,6 @@
 2025-08-29 14:18  ✔    2499.99    Hot Wheels Monster Trucks Köpek Balığı ve Dinozor Korkunç Ejderhaya Karşı Oyun Seti JFR06 
 2025-08-29 14:18  ✔    2799.99    Hot Wheels Ultimate Çift Ejderha Taşıyıcı Dev Tır JBM72
 2025-07-30 13:33  ✔    1199.99    Hot Wheels Monster Trucks Köpekbalığı Oyun Seti JFR08
-2025-07-30 13:33  ✔     899.99    Hot Wheels Hot Ones Otoyol Oyun Seti JFD11
 2025-07-30 13:33  ✔     649.99    HW Track Creator Araba ve Pist Başlangıç Paketi JDW43
 2025-07-30 13:28  ✔      99.99    HW Track Creator Düz Pist Paketi JDW41
 2025-07-30 13:28  ✔    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jhw42 Horizon Hauler'Li Set
@@ -95,6 +94,7 @@
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky45 Dodge Charger Stock-Car
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky44 Alpha Pursuit
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky42 Rockin' Railer
+2024-07-18 11:53  ✔    1999.99    Hot Wheels Monster Trucks Charge  Chase Challenge Oyun Seti HXT05
 2024-07-12 11:23  ✔     139.99    Hot Wheels Super Fast Beslenme Kabı 2907
 2024-06-27 15:08  ✔     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Booyah Boombox Ve Cool Cassette
 2024-06-27 15:08  ✔     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Snake Strummer Ve Hot Stepper
@@ -293,6 +293,7 @@
 2025-08-07 12:13  ✘    1199.99    Hot Wheels Araba Desenli Mavi Anaokulu Çantası 2480
 2025-08-07 12:13  ✘    1799.99    Hot Wheels Araba Desenli Anaokulu Çantası 2593
 2025-07-30 13:33  ✘    1899.99    Hot Wheels Hot Ones Turbo Oyun Parkuru JFH35
+2025-07-30 13:33  ✘     899.99    Hot Wheels Hot Ones Otoyol Oyun Seti JFD11
 2025-07-30 13:28  ✘    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jbm08 Sakura Sprinter'Lı Set
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby70 Volkswagen T2 Pickup
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby73 Honda Civic Si
