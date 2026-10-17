@@ -95,8 +95,6 @@
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky43 Baja Hauler/Camion De Transport
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky46 Hot Wheels High
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky45 Dodge Charger Stock-Car
-2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky44 Alpha Pursuit
-2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky42 Rockin' Railer
 2024-07-18 11:53  ✔    1999.99    Hot Wheels Monster Trucks Charge  Chase Challenge Oyun Seti HXT05
 2024-07-12 11:23  ✔     139.99    Hot Wheels Super Fast Beslenme Kabı 2907
 2024-06-27 15:08  ✔     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Booyah Boombox Ve Cool Cassette
@@ -107,7 +105,6 @@
 2024-03-04 12:33  ✔     999.99    Hot Wheels Monster Trucks Arenada Rhinomite Mücadelesi Oyun Seti HTP18
 2024-02-23 15:13  ✔     799.00    Hot Wheels Ev Oyun Çadırı 
 2024-01-25 11:23  ✔     299.99  * Hot Wheels Pop Culture Die Cast Tekli Arabalar HXD63 - Hvj41 Hiway Hauler
-2023-12-20 15:38  ✔    2099.99    Hot Wheels Neon Yarışlar Çoklu Yarış Heyecanı Pist Seti HPC07
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Tiger Shark
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Race Ace
 2023-10-31 14:08  ✔     749.99    Hot Wheels Neon Yarışlar Çifte Çemberde Yarış Seti HPC05
