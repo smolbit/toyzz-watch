@@ -47,7 +47,6 @@
 2026-01-19 12:08  ✔    1499.99    Hot Wheels Speed Serisi Custom '90 Honda Civic EF Araba Yapım Seti 248 Parça JHF62
 2026-01-15 14:08  ✔     129.99    Cool Things Hot Wheels GT K-Cars Sürpriz Anahtarlık Paketi 
 2026-01-05 14:28  ✔    1099.99    Hot Wheels City Süper İtfaiye İstasyonu Oyun Seti JHL95
-2025-12-31 10:18  ✔     849.99    Hot Wheels Stunt Trucks Akrobatik Yarış Pisti Oyun Seti JHK76 - Slam Jump Challenge Jhk78
 2025-12-31 10:18  ✔     849.99    Hot Wheels Stunt Trucks Akrobatik Yarış Pisti Oyun Seti JHK76 - Loop Flag Finish Jhk77
 2025-12-31 10:18  ✔     849.99    Hot Wheels Silver Serisi Legends 6 lı Paket JLB24
 2025-12-31 10:18  ✔     999.00    Hot Wheels Silver Serisi Euro Style 6’lı Paket JLB25 
@@ -60,6 +59,7 @@
 2025-10-07 13:38  ✔    6499.00    Hot Wheels Premium Serisi Mercedes-Benz 300 SL Araba  Yapım Seti 1600 Parça HWW25
 2025-09-26 13:23  ✔    4999.00    Hot Wheels F1 Hero Yarış Pisti JDY16
 2025-09-26 13:23  ✔    2299.99    Hot Wheels F1 Temel Yarış Pisti JDY15
+2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm14 Visa Cash App Rb Formula One Team (#22)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd79 Visa Cash App Racing Bulls Formula One Team (#30)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd81 Mclaren Formula 1 Team (#81)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd88 Mclaren Formula 1 Team (#4)
@@ -144,7 +144,6 @@
 2022-02-15 15:17  ✔    1599.99    Hot Wheels Track Builder Unlimited Benzin Bidonu Akrobasi Seti HDX78
 2022-01-31 08:52  ✔     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - 68-Yeşil
 2022-01-31 08:52  ✔     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - Hmm54 Gunkster
-2022-01-31 08:52  ✔     799.99    Hot Wheels Fırlatıcı ve Taşıyıcı Ejderha GTK42
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Köpekbalığı
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Dinozor
 2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jbl22 Meyers Manx
@@ -152,7 +151,6 @@
 2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jhw29 1967 Jeepster Commando
 2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jhw32 Datsun King Cab Baja
 2021-02-19 09:38  ✔     274.99    Mega Construx Hot Wheels Blok Araçlar Serisi GVM28 - Rodger Dodger
-2021-01-18 11:08  ✔    1899.99    Hot Wheels Sürat Pistli Tır GVG37
 2021-01-18 11:08  ✔     799.99    Hot Wheels Köpek Balığı Taşıyıcı GVG36
 2020-05-14 12:48  ✔     299.99  * Hot Wheels Car Culture Arabalar FPY86 - Jbk72 Subaru Brat
 2020-03-19 13:43  ✔     199.99    Hot Wheels Can Simidi 50 cm
@@ -164,12 +162,12 @@
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj91 Gunkster
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Tuk'N Roll
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcd78 Meyers Manx
+2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy30 Helichopper
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy48 Soupreme Slammer
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy63 Hw 5 Alarm
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy38 Sneakerhead
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj82 Nissan Frontier
-2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy44 Battitude
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy72 Jeep
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy67 Silver Back Attack
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy36 1983 Chevy Silverado
@@ -281,7 +279,6 @@
 2025-10-07 13:38  ✘    3399.99    Hot Wheels Elite Serisi Corvette Grand Sport Araba Yapım Seti 918 Parça JGR31
 2025-10-07 13:38  ✘    3399.99    Hot Wheels Elite Serisi '90 Acura NSX Araba Yapım Seti 876 Parça JFT17
 2025-10-07 13:38  ✘    1499.99    Hot Wheels Speed Serisi Custom'68 Camaro Araba Yapım Seti 289 Parça JFT16
-2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm14 Visa Cash App Rb Formula One Team (#22)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm24 Visa Cash App Rb Formula One Team (#30)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd78 Moneygram Haas F1 Team (#31)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd80 Mercedes-Amg Petronas Formula One Team (#63)
@@ -505,7 +502,6 @@
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Jmt10 Bigfoot 4x4x4
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Donkey Kong
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf11 Yeşil Steer Clear
-2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy43 Great Bite
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj93 Bone Shaker
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy55 Mega-Wrex
