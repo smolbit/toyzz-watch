@@ -7,7 +7,6 @@
 2026-08-19 09:58  ✔    2799.00    Hot Wheels City Mega Loop Oto Yıkama Pist Seti JHL97
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mclaren Formula 1 Team
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Kick Sauber F1 Team
-2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Oracle Red Bull Racing
 2026-08-06 14:08  ✔    5999.99    1:15 Hot Wheels Monster Trucks Mutant Great Bite R/C Uzaktan Kumandalı Araba JMM76
 2026-07-29 08:48  ✔    4499.99    Hot Wheels Monster Trucks Mutant Kaosu Canavarla Mücadele JMK90
 2026-07-23 11:53  ✔    2799.99    Hot Wheels Monster Trucks Mutant Kaosu Çemberde Yarış Oyun Seti JMK91
@@ -59,7 +58,6 @@
 2025-10-07 13:38  ✔    6499.00    Hot Wheels Premium Serisi Mercedes-Benz 300 SL Araba  Yapım Seti 1600 Parça HWW25
 2025-09-26 13:23  ✔    4999.00    Hot Wheels F1 Hero Yarış Pisti JDY16
 2025-09-26 13:23  ✔    2299.99    Hot Wheels F1 Temel Yarış Pisti JDY15
-2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm14 Visa Cash App Rb Formula One Team (#22)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd79 Visa Cash App Racing Bulls Formula One Team (#30)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd81 Mclaren Formula 1 Team (#81)
 2025-09-26 13:23  ✔     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd88 Mclaren Formula 1 Team (#4)
@@ -95,6 +93,8 @@
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky43 Baja Hauler/Camion De Transport
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky46 Hot Wheels High
 2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky45 Dodge Charger Stock-Car
+2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky44 Alpha Pursuit
+2024-08-12 09:13  ✔     139.99    Hot Wheels Halloween Tekli Arabalar DXT91 - Jky42 Rockin' Railer
 2024-07-18 11:53  ✔    1999.99    Hot Wheels Monster Trucks Charge  Chase Challenge Oyun Seti HXT05
 2024-07-12 11:23  ✔     139.99    Hot Wheels Super Fast Beslenme Kabı 2907
 2024-06-27 15:08  ✔     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Booyah Boombox Ve Cool Cassette
@@ -212,6 +212,7 @@
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mercedes-Amg Petronas Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Visa Cash App Racing Bulls Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Moneygram Haas F1 Team
+2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Oracle Red Bull Racing
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Atlassian Williams Racing
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Bwt Alpine Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Scuderia Ferrari Hp
@@ -277,6 +278,7 @@
 2025-10-07 13:38  ✘    3399.99    Hot Wheels Elite Serisi Corvette Grand Sport Araba Yapım Seti 918 Parça JGR31
 2025-10-07 13:38  ✘    3399.99    Hot Wheels Elite Serisi '90 Acura NSX Araba Yapım Seti 876 Parça JFT17
 2025-10-07 13:38  ✘    1499.99    Hot Wheels Speed Serisi Custom'68 Camaro Araba Yapım Seti 289 Parça JFT16
+2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm14 Visa Cash App Rb Formula One Team (#22)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jbm24 Visa Cash App Rb Formula One Team (#30)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd78 Moneygram Haas F1 Team (#31)
 2025-09-26 13:23  ✘     399.99  * Hot Wheels Premium Formula 1 Yarış Arabası Tekli Paket HRV11 - Jkd80 Mercedes-Amg Petronas Formula One Team (#63)
