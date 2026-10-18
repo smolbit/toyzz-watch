@@ -43,7 +43,6 @@
 2026-01-26 10:03  ✔     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky60 Custom/Personnalise
 2026-01-23 08:38  ✔     199.99    Hot Wheels Şişme Kolluk 46091-B
 2026-01-23 08:33  ✔     199.99    Hot Wheels Şişme Can Simidi 50 cm
-2026-01-19 12:08  ✔    1499.99    Hot Wheels Speed Serisi Custom '90 Honda Civic EF Araba Yapım Seti 248 Parça JHF62
 2026-01-15 14:08  ✔     129.99    Cool Things Hot Wheels GT K-Cars Sürpriz Anahtarlık Paketi 
 2026-01-05 14:28  ✔    1099.99    Hot Wheels City Süper İtfaiye İstasyonu Oyun Seti JHL95
 2025-12-31 10:18  ✔     849.99    Hot Wheels Stunt Trucks Akrobatik Yarış Pisti Oyun Seti JHK76 - Slam Jump Challenge Jhk78
@@ -264,6 +263,7 @@
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Mod Rod Jkl11
 2026-01-26 10:03  ✘     399.99    1:43 Hot Wheels XL Diecast Araba Tekli Paket JKL02 - Count Muscula Jkl14
 2026-01-19 12:08  ✘    3399.99    Hot Wheels Elite Serisi '15 Audi R8 LMS Yapım Seti 820 Parça JFT18
+2026-01-19 12:08  ✘    1499.99    Hot Wheels Speed Serisi Custom '90 Honda Civic EF Araba Yapım Seti 248 Parça JHF62
 2026-01-19 12:08  ✘    1499.99    Hot Wheels Speed Serisi ‘07 Honda S2000 Araba Yapım Seti 257 Parça JFR88
 2025-12-31 10:18  ✘    1299.99    2in1 Hot Wheels Dönüşebilen Garaj Oyun Seti JHL94
 2025-12-31 10:13  ✘     489.99    Hot Wheels Let s Race Activate Tekli Arabalar JJX15  - Jjx20 Gt-Scorcher
