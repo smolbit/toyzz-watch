@@ -81,7 +81,6 @@
 2025-03-14 15:28  ✔     749.99    1:64 Hot Wheels Premium Car Culture 2'li Paket HBL96 - Jhw55 Maserati Mc12 Ve Maserati Mc20
 2025-03-14 15:28  ✔     749.99    1:64 Hot Wheels Premium Car Culture 2'li Paket HBL96 - Jhw54 2012 Corvette Z06 Ve 2003 Dodge Viper Srt-10
 2025-01-31 09:38  ✔     839.99    Hot Wheels Monster Trucks Taşınabilir Oyun Seti HXT04 
-2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw01 Mega-Wrex
 2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw04 Scratch Attack
 2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv72 Rageasaur
 2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv65 Wreckin' Wolf
@@ -325,6 +324,7 @@
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdv98 Bone Shaker
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdv99 Gunkster
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw00 5 Alarm
+2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw01 Mega-Wrex
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw02 Hw Tiger Shark
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw03 Rhinomite
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw06 Motosaurus
