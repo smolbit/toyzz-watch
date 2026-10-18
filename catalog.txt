@@ -100,7 +100,6 @@
 2024-06-27 15:08  ✔     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Retro Rider Ve Rad Sk8'R
 2024-06-27 15:08  ✔     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Muscle Sk8 Ve Virtually Cool
 2024-06-27 15:03  ✔    3399.99    Hot Wheels Şehri Muhteşem Köpek Balığı Araba Yıkama Oyun Seti HTN82
-2024-03-04 12:33  ✔     999.99    Hot Wheels Monster Trucks Arenada Rhinomite Mücadelesi Oyun Seti HTP18
 2024-02-23 15:13  ✔     799.00    Hot Wheels Ev Oyun Çadırı 
 2024-01-25 11:23  ✔     299.99  * Hot Wheels Pop Culture Die Cast Tekli Arabalar HXD63 - Hvj41 Hiway Hauler
 2023-11-28 11:13  ✔    1419.00    Hot Wheels Mini Monster Trucks Uzaktan Kumandalı Arabalar - Tiger Shark
@@ -335,7 +334,6 @@
 2024-12-05 08:18  ✘     599.00    Hot Wheels Kulak Üstü Çocuk Kulaklığı 
 2024-12-03 14:28  ✘     449.99    Desenli Çocuk Şemsiyesi  - Kuromi Pembe
 2024-12-03 14:28  ✘     449.99    Desenli Çocuk Şemsiyesi  - Kuromi Mor
-2024-12-03 14:28  ✘     449.99    Desenli Çocuk Şemsiyesi  - Hot Wheels Mavi
 2024-12-03 14:28  ✘     449.99    Desenli Çocuk Şemsiyesi  - Hot Wheels Karışık Desenli
 2024-12-03 14:28  ✘     449.99    Desenli Çocuk Şemsiyesi  - Barbie Pembe
 2024-12-03 14:28  ✘     449.99    Desenli Çocuk Şemsiyesi  - Barbie Karışık Desenli
@@ -369,6 +367,7 @@
 2024-06-27 15:08  ✘     299.99    Hot Wheels Skate 2’li Retro Parmak Kaykayı HXL17 - Epic Shapes Ve Fire Kicks
 2024-05-09 15:48  ✘    1999.99    Hot Wheels Challenge Accepted Çekçekli Valiz FRX.002
 2024-04-15 17:40  ✘    1299.99    MEGA Hot Wheels Bone Shaker HRY17
+2024-03-04 12:33  ✘     999.99    Hot Wheels Monster Trucks Arenada Rhinomite Mücadelesi Oyun Seti HTP18
 2024-03-04 12:33  ✘    1399.99    MEGA Hot Wheels Cadillac ATS-V R HRY18
 2024-02-20 15:28  ✘    1599.99    Hot Wheels Elektrikli Araç Şarj İstasyonu Oyun Seti HTN79
 2024-02-20 15:28  ✘     699.99    Hot Wheels RaceVerse 2'li Paket HRT55 - Shredder Ve Michelangelo
