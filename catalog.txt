@@ -174,7 +174,6 @@
 2015-07-09 12:11  ✔     999.99    Hot Wheels Mega Tır 
 2015-04-09 16:40  ✔    1549.00    1:24 Hot Wheels Uzaktan Kumandalı Araba - Urban Agent
 2015-01-16 13:01  ✔      89.99    Hot Wheels Tekli Arabalar  - Hkg97 Classic Tv Series Batmobile
-2014-06-30 16:51  ✔     229.99    Hot  Wheels Renk Değiştiren Araçlar - Power Rocket
 2014-06-30 16:51  ✔     229.99    Hot  Wheels Renk Değiştiren Araçlar - Jkp19 Donut Drifter
 2014-06-30 16:51  ✔     229.99    Hot  Wheels Renk Değiştiren Araçlar - Jcm33 Ford Mustang
 2014-06-30 16:51  ✔     229.99    Hot  Wheels Renk Değiştiren Araçlar - Jmk07 4ward Speed
@@ -518,6 +517,7 @@
 2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Chrysler 300 Bling
 2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Cfm28 Baja Bone Shaker
 2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Bedlam
+2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Power Rocket
 2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Jcm34 Gt Hunter
 2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Jkp17 Baja Truck
 2014-06-30 16:51  ✘     229.99    Hot  Wheels Renk Değiştiren Araçlar - Jkp20 Gt-Scorcher
