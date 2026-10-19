@@ -1,5 +1,7 @@
 # tarih  stok  fiyat  *=filtreye uyuyor  isim
 2026-10-07 09:08  ✔     219.99    Hot Wheels Boyama ve Aktivite Seti 
+2026-09-28 13:43  ✔     119.99    Hot Wheels Koleksiyon Kartı 6’lı Paket 
+2026-09-28 13:43  ✔     924.99    Hot Wheels Yol Macerası Mega Başlangıç Paketi 
 2026-09-17 09:13  ✔   10999.00    Hot Wheels Ultimate T-Rex Garajı JHL98
 2026-09-16 14:03  ✔    5999.00    Hot Wheels Yarışları Formula 1 Yokuş Aşağı Pist Yarışı JMC90
 2026-09-16 14:03  ✔    1299.00    Hot Wheels Monster Trucks Mutant Kaosu Çoklu Paketi JMV37 - Wreckin’ Wolf
@@ -66,8 +68,6 @@
 2025-08-29 14:18  ✔    2499.99    Hot Wheels Monster Trucks Köpek Balığı ve Dinozor Korkunç Ejderhaya Karşı Oyun Seti JFR06 
 2025-08-29 14:18  ✔    2799.99    Hot Wheels Ultimate Çift Ejderha Taşıyıcı Dev Tır JBM72
 2025-07-30 13:33  ✔    1199.99    Hot Wheels Monster Trucks Köpekbalığı Oyun Seti JFR08
-2025-07-30 13:33  ✔     649.99    HW Track Creator Araba ve Pist Başlangıç Paketi JDW43
-2025-07-30 13:28  ✔      99.99    HW Track Creator Düz Pist Paketi JDW41
 2025-07-30 13:28  ✔    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jhw42 Horizon Hauler'Li Set
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby69 Fiat 500 Topolino (1936)
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby71 Custom Otto
@@ -188,8 +188,6 @@
 2026-10-15 08:38  ✘    1499.99    Mattel Brick Shop Hot Wheels '20 Corvette JKR19
 2026-10-15 08:38  ✘    1499.99    Mattel Brick Shop Hot Wheels Lamborghini Huracan Sterrato JHG75
 2026-10-07 09:08  ✘    1329.99    Hot Wheels Monster Trucks Bone Shaker Monster Aktivite Seti 
-2026-09-28 13:43  ✘     119.99    Hot Wheels Koleksiyon Kartı 6’lı Paket 
-2026-09-28 13:43  ✘     924.99    Hot Wheels Yol Macerası Mega Başlangıç Paketi 
 2026-08-25 13:53  ✘     449.50    Hot Wheels Aqua Magic Fırçalı Boyama Kitabı
 2026-08-25 13:53  ✘     699.50    Hot Wheels Çıkartma Kitabı
 2026-08-25 13:53  ✘     199.50    Hot Wheels Lets Race Çıkartma Kitabı
@@ -286,6 +284,8 @@
 2025-08-07 12:13  ✘    1799.99    Hot Wheels Araba Desenli Anaokulu Çantası 2593
 2025-07-30 13:33  ✘    1899.99    Hot Wheels Hot Ones Turbo Oyun Parkuru JFH35
 2025-07-30 13:33  ✘     899.99    Hot Wheels Hot Ones Otoyol Oyun Seti JFD11
+2025-07-30 13:33  ✘     649.99    HW Track Creator Araba ve Pist Başlangıç Paketi JDW43
+2025-07-30 13:28  ✘      99.99    HW Track Creator Düz Pist Paketi JDW41
 2025-07-30 13:28  ✘    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jbm08 Sakura Sprinter'Lı Set
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby70 Volkswagen T2 Pickup
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby73 Honda Civic Si
