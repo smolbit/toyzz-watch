@@ -136,7 +136,6 @@
 2022-02-15 15:17  ✔    1599.99    Hot Wheels Track Builder Unlimited Benzin Bidonu Akrobasi Seti HDX78
 2022-01-31 08:52  ✔     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - 68-Yeşil
 2022-01-31 08:52  ✔     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - Hmm54 Gunkster
-2022-01-31 08:52  ✔     799.99    Hot Wheels Fırlatıcı ve Taşıyıcı Ejderha GTK42
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Köpekbalığı
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Dinozor
 2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jbl22 Meyers Manx
@@ -443,6 +442,7 @@
 2022-01-31 08:52  ✘     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - 5 Alarm
 2022-01-31 08:52  ✘     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - Mega Wrex
 2022-01-31 08:52  ✘     599.99    Hot Wheels Monster Trucks Kükreyen Arabalar Serisi HDX60 - Big Foot Hmm53
+2022-01-31 08:52  ✘     799.99    Hot Wheels Fırlatıcı ve Taşıyıcı Ejderha GTK42
 2022-01-31 08:52  ✘      71.99    Hot Wheels Track Builder Unlimited Düz Pist Seti HGK07 - Sarı
 2021-10-26 08:58  ✘    4999.99    Hot Wheels Monster Trucks Volkanik Alanda Macera Oyun Seti GYL14
 2021-10-26 08:58  ✘    2699.99    Hot Wheels Monster Trucks Araba Yiyen Mega Wrex GYL13
