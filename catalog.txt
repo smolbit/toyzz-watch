@@ -12,6 +12,7 @@
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mclaren Formula 1 Team
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Kick Sauber F1 Team
 2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Oracle Red Bull Racing
+2026-08-11 08:18  ✔    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Atlassian Williams Racing
 2026-08-06 14:08  ✔    5999.99    1:15 Hot Wheels Monster Trucks Mutant Great Bite R/C Uzaktan Kumandalı Araba JMM76
 2026-07-29 08:48  ✔    4499.99    Hot Wheels Monster Trucks Mutant Kaosu Canavarla Mücadele JMK90
 2026-07-23 11:53  ✔    2799.99    Hot Wheels Monster Trucks Mutant Kaosu Çemberde Yarış Oyun Seti JMK91
@@ -46,7 +47,6 @@
 2026-01-26 10:03  ✔     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky64 Sandblaster
 2026-01-26 10:03  ✔     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky62 Land Rover Defender 90
 2026-01-26 10:03  ✔     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky57 '20 Toyota Tacoma
-2026-01-26 10:03  ✔     299.99    1:64 Hot Wheels Silver Serisi Pantone Diecast Araba Tekli Paket JKY47 - Jky60 Custom/Personnalise
 2026-01-23 08:38  ✔     199.99    Hot Wheels Şişme Kolluk 46091-B
 2026-01-23 08:33  ✔     199.99    Hot Wheels Şişme Can Simidi 50 cm
 2026-01-05 14:28  ✔    1099.99    Hot Wheels City Süper İtfaiye İstasyonu Oyun Seti JHL95
@@ -202,7 +202,6 @@
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Mercedes-Amg Petronas Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Visa Cash App Racing Bulls Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Moneygram Haas F1 Team
-2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Atlassian Williams Racing
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Bwt Alpine Formula One Team
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Scuderia Ferrari Hp
 2026-08-11 08:18  ✘    1149.00    1:64 Hot Wheels 2'li Premium Formula 1 Paketi JMM89 - Aston Martin Aramco Formula One Team
