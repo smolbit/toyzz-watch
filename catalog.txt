@@ -112,8 +112,8 @@
 2023-05-10 10:18  ✔     109.99    Hot Wheels Skate Parmak Kaykay ve Ayakkabı Paketleri HGT46 - Hng39 Grip And Grind
 2023-04-24 10:43  ✔     179.99    Hot Wheels Fast & Furious Temalı Arabalar HNR88 - Jby41 Datsun 240z Custom
 2023-03-14 14:38  ✔    1999.99    Hot Wheels Çember Pistli İftaiye İstasyonu HKX41
-2023-02-06 09:08  ✔     429.99    Hot Wheels Monster Trucks Arenada Mücadeleye Başlangıç Setleri HNB87 - 5alarm-Fire Crash Challenge
-2023-02-06 09:08  ✔     429.99    Hot Wheels Monster Trucks Arenada Mücadeleye Başlangıç Setleri HNB87 - Bone Shaker-The Press Challenge
+2023-02-06 09:08  ✘     429.99    Hot Wheels Monster Trucks Arenada Mücadeleye Başlangıç Setleri HNB87 - 5alarm-Fire Crash Challenge
+2023-02-06 09:08  ✘     429.99    Hot Wheels Monster Trucks Arenada Mücadeleye Başlangıç Setleri HNB87 - Bone Shaker-The Press Challenge
 2023-01-20 14:28  ✔    1799.99    Hot Wheels City T-Rex Loop Ve Akrobasi Oyun Seti, 1 Oyuncak Arabalı Parkur Seti HKX42
 2023-01-20 14:28  ✔     739.99    1:64 Hot Wheels Monster Trucks 2'li Paket FYJ64 - Hwn64 Oscar Mayer - All Fried Up
 2023-01-20 14:28  ✔     739.99    1:64 Hot Wheels Monster Trucks 2'li Paket FYJ64 - Hwn54 Duck Roll - Piran-Ahhhh
@@ -143,8 +143,6 @@
 2021-03-09 08:28  ✔     299.99    Hot Wheels Vahşi Fırlatıcılar Serisi GVF41 - Dinozor
 2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jbl22 Meyers Manx
 2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jbl21 Datsun 510 Wagon
-2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jhw29 1967 Jeepster Commando
-2021-02-26 11:28  ✔     299.99  * Hot Wheels Boulevard Premium Araçlar GJT68 - Jhw32 Datsun King Cab Baja
 2021-02-19 09:38  ✔     274.99    Mega Construx Hot Wheels Blok Araçlar Serisi GVM28 - Rodger Dodger
 2021-01-18 11:08  ✔     799.99    Hot Wheels Köpek Balığı Taşıyıcı GVG36
 2020-05-14 12:48  ✔     299.99  * Hot Wheels Car Culture Arabalar FPY86 - Jbk72 Subaru Brat
