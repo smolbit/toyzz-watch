@@ -34,7 +34,7 @@
 2026-04-13 13:48  ✔     599.99    1:43 Hot Wheels Diecast Çek ve Bırak Araba HPR70 - Jcm08 2023 Nissan Z Custom
 2026-02-16 10:28  ✔    1799.99    Hot Wheels Racerverse Taşıyıcı Kamyon Oyun Seti JFV69
 2026-01-26 10:03  ✔    1899.99    2in1 Hot Wheels Monster Trucks Döngü ve Takla Bigfoot Pist Seti JBX64
-2026-01-26 10:03  ✔    2399.99    Hot Wheels Monster Trucks Köpek Balığı ve Dinozor Araba Multi Paket JGD68 
+2026-01-26 10:03  ✘    2399.99    Hot Wheels Monster Trucks Köpek Balığı ve Dinozor Araba Multi Paket JGD68 
 2026-01-26 10:03  ✔    2499.99    Hot Wheels Formula 1 Hızlı Başlangıç Yarış Seti JKM88 
 2026-01-26 10:03  ✔    1599.99    Hot Wheels City Polis İstasyonu Oyun Seti JBM71 
 2026-01-26 10:03  ✔    2099.99    Hot Wheels City Köpek Balığı Macerası Oyun Seti JHL96
@@ -191,7 +191,6 @@
 2026-08-25 13:53  ✘     449.50    Hot Wheels Aqua Magic Fırçalı Boyama Kitabı
 2026-08-25 13:53  ✘     699.50    Hot Wheels Çıkartma Kitabı
 2026-08-25 13:53  ✘     199.50    Hot Wheels Lets Race Çıkartma Kitabı
-2026-08-25 13:53  ✘     399.50    Hot Wheels Aqua Magic Kalemli Boyama Kitabı
 2026-08-25 13:53  ✘     699.50    Hot Wheels Boyama Kitabı
 2026-08-24 12:23  ✘     380.00    Hot Wheels Parıltılı Tatil Çantam Etkinlik ve Boyama Kitabı
 2026-08-24 11:48  ✘    1750.00    Hot Wheels Kulaktan Kulağa Öyküler
