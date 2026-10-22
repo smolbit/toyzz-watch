@@ -73,7 +73,6 @@
 2025-07-30 13:28  ✔    2499.99    1:64 Hot Wheels Premium Araba Koleksiyon Seti GMH39 - Jhw43 1997 Mclaren F1 Gtr'Lı Set
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby69 Fiat 500 Topolino (1936)
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby72 ’70 Toyota Celica
-2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby74 ’81 Camaro
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx41 69 Corvette Racer
 2025-04-22 09:13  ✔     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx44 60s Fiat 500d Modificado
 2025-03-26 08:43  ✔     799.00    Gokidy Katlanabilir Çocuk Kamp Sandalyesi - Açık Mavi
@@ -83,7 +82,6 @@
 2025-01-31 09:38  ✔     839.99    Hot Wheels Monster Trucks Taşınabilir Oyun Seti HXT04 
 2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw04 Scratch Attack
 2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv72 Rageasaur
-2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv71 Rodger Dodger
 2025-01-31 09:38  ✔     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv69 Crocovile
 2025-01-31 09:38  ✔    1499.99    1:64 Hot Wheels Japon Temalı 6’lı Araba Seti JBY77 
 2025-01-02 11:38  ✔    1749.99    Hot Wheels Stunt Tracks Rapid Launch Loop Oyun Seti JBX65
@@ -123,6 +121,7 @@
 2023-01-20 14:28  ✔     739.99    1:64 Hot Wheels Monster Trucks 2'li Paket FYJ64 - Jlv77 The 909-Pure Muscle
 2023-01-20 14:28  ✔     499.99    MEGA Hot Wheels Smash N Crash Tiger Shark Çarpışma Pisti HKF88
 2023-01-20 14:28  ✔    1999.99    Hot Wheels Monster Trucks Karanlıkta Parlayan Araçlar Paketi HCB57
+2022-03-06 22:42  ✔     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Scorpion Flex Attack
 2022-03-06 22:42  ✔     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Bat Loop Attack
 2022-03-06 22:42  ✔     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Jbm63 Snake Spiral Attack
 2022-03-06 22:42  ✔     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Jhl92 Gorilla Slam Attack
@@ -151,7 +150,6 @@
 2019-06-11 16:54  ✔     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Jjb05 Haulin 64
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jkj91 Gunkster
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Tuk'N Roll
-2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcd78 Meyers Manx
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf01 Podium Crasher
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy30 Helichopper
 2019-06-11 16:54  ✔     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy48 Soupreme Slammer
@@ -288,6 +286,7 @@
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby70 Volkswagen T2 Pickup
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby71 Custom Otto
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby73 Honda Civic Si
+2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby74 ’81 Camaro
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby75 Porsche 917 Lh
 2025-04-22 09:13  ✘     179.99  * 1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jby76 Bmw M1 Procar
 2025-04-22 09:13  ✘     179.99    1:64 Hot Wheels The Hot Ones Die Cast Tekli Arabalar JBY68 - Jkx46 Volkswagen T1 Panel Bus
@@ -323,6 +322,7 @@
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jdw06 Motosaurus
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv70 Piran-Ahhh
 2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv65 Wreckin' Wolf
+2025-01-31 09:38  ✘     249.99    Hot Wheels Monster Trucks Bigfoot Trophy Şampiyonları Tekli Arabalar JDV96 - Jmv71 Rodger Dodger
 2025-01-31 09:38  ✘    2999.99    Hot Wheels Racerverse Barbie Oyun Seti JDD65
 2025-01-31 09:38  ✘    2199.00    Hot Wheels T-Rex ve İtfaiye İstasyonu Oyun Seti JBM73
 2024-12-05 08:18  ✘    1299.00    Hot Wheels Bluetooth Kulak Üstü Çocuk Kulaklığı 
@@ -425,7 +425,6 @@
 2023-01-20 14:28  ✘     699.99     Hot Wheels Track Builder Arabalı Düz Pist BHT77
 2022-03-06 22:42  ✘     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Octopus Invasion Attack
 2022-03-06 22:42  ✘     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Wreck & Ride Gorilla Attack
-2022-03-06 22:42  ✘     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Scorpion Flex Attack
 2022-03-06 22:42  ✘     849.99    Hot Wheels City Düşmanlarla Mücadele Serisi HDR29 - Gator Loop Attack
 2022-02-15 15:18  ✘    1999.99    Hot Wheels Hız Rampalı Tır HDY92
 2022-02-15 15:18  ✘     849.99    Hot Wheels Şehir Hayatı Serisi HDR24 - Downtown Car Park
@@ -502,6 +501,7 @@
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Jjb08 Great Bite
 2019-06-11 16:54  ✘     849.99    1:24 Hot Wheels Monster Trucks Arabalar - Jmt10 Bigfoot 4x4x4
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Donkey Kong
+2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcd78 Meyers Manx
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jcf11 Yeşil Steer Clear
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy43 Great Bite
 2019-06-11 16:54  ✘     229.99    1:64 Hot Wheels Monster Trucks Araba FYJ44 - Jhy44 Battitude
